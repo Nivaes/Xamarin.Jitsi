@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Droid", "Droid", "{CFF52087-2C2B-46CA-9B33-5CE055037CEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iOS", "iOS", "{F15BE073-8C96-4CDE-9816-AE5ED45279A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JitsiMeet.Droid", "JitsiMeet.Droid\JitsiMeet.Droid.csproj", "{AACC37DD-FE2A-42C5-9220-A2F0C758D3A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JitsiMeet.Droid.Sample", "JitsiMeet.Droid.Sample\JitsiMeet.Droid.Sample.csproj", "{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AACC37DD-FE2A-42C5-9220-A2F0C758D3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACC37DD-FE2A-42C5-9220-A2F0C758D3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACC37DD-FE2A-42C5-9220-A2F0C758D3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACC37DD-FE2A-42C5-9220-A2F0C758D3A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AACC37DD-FE2A-42C5-9220-A2F0C758D3A0} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62224AB5-FF68-4E81-A15A-A10904E9A0ED}
+	EndGlobalSection
+EndGlobal
