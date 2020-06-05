@@ -11,6 +11,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JitsiMeet.Droid", "JitsiMee
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JitsiMeet.Droid.Sample", "JitsiMeet.Droid.Sample\JitsiMeet.Droid.Sample.csproj", "{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD00C330-038B-4785-A42C-E7AB64ED0537}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.build.props = Directory.build.props
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{E3DB6DC0-0F75-44EF-B3F8-D0E749E640D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +41,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{CFF52087-2C2B-46CA-9B33-5CE055037CEA} = {E3DB6DC0-0F75-44EF-B3F8-D0E749E640D6}
+		{F15BE073-8C96-4CDE-9816-AE5ED45279A5} = {E3DB6DC0-0F75-44EF-B3F8-D0E749E640D6}
 		{AACC37DD-FE2A-42C5-9220-A2F0C758D3A0} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
 		{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
 	EndGlobalSection

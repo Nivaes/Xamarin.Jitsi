@@ -1,0 +1,32 @@
+﻿<Project>
+  <PropertyGroup>
+    <Copyright>Copyright (c) Nivaes Systems</Copyright>
+    <PackageLicenseUrl>http://opensource.org/licenses/ms-pl</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Nivaes/Xamarin.Jitsi</PackageProjectUrl>
+    <PackageIconUrl>https://i.imgur.com/D3CfFea.png</PackageIconUrl>
+    <Authors>Nivaes Systems</Authors>
+    <Company>Nivaes Systems</Company>
+    <Owners>Nivaes</Owners>
+    <PackageReleaseNotes>https://www.nivaes.com</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/Nivaes/Xamarin.Jitsi</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Product>$(AssemblyName) ($(TargetFramework))</Product>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Version>2.9.0.0</Version>
+
+    <RepoRoot>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)'))</RepoRoot>
+    <BaseOutputPath>$(RepoRoot)Artifacts\bin\$(MSBuildProjectName)\</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(RepoRoot)Artifacts\obj\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
+    
+    <LangVersion>latest</LangVersion>
+    <NoWarn>$(NoWarn);1591;1701;1702;1705;VSX1000</NoWarn>
+    <GenerateDocumentationFile Condition=" '$(Configuration)' == 'Release' ">true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild Condition=" '$(Configuration)' == 'Release' and '$(IsTestProject)' != 'true'">true</GeneratePackageOnBuild>
+
+    <Platform>AnyCPU</Platform>
+    <DebugType>full</DebugType>
+    <IsTestProject>$(MSBuildProjectName.Contains('UnitTest'))</IsTestProject>
+  </PropertyGroup>
+  
+</Project>

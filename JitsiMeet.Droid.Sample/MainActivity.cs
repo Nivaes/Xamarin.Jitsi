@@ -1,10 +1,7 @@
 ﻿using System;
 using Android.App;
 using Android.OS;
-using Android.Runtime;
-using Android.Support.Design.Widget;
-using Android.Support.V7.App;
-using Android.Views;
+using AndroidX.AppCompat.App;
 using Android.Widget;
 using Java.Lang;
 using Java.Net;
@@ -18,8 +15,7 @@ namespace JitsiMeet.Droid.Sample
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-//            Xamarin.Essentials.Platform.Init(this, savedInstanceState);
-            SetContentView(Resource.Layout.activity_main);
+            base.SetContentView(Resource.Layout.activity_main);
 
             URL serverUrl;
             try
@@ -59,7 +55,7 @@ namespace JitsiMeet.Droid.Sample
                         .Build();
                 // Launch the new activity with the given options. The launch() method takes care
                 // of creating the required Intent and passing the options.
-                //Org.Jitsi.Meet.Sdk.JitsiMeetActivity.Launch(this, options);
+                Org.Jitsi.Meet.Sdk.JitsiMeet.JitsiMeetActivity.Launch(this, options);
             }
         }
     }
