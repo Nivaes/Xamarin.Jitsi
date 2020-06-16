@@ -53,6 +53,7 @@ namespace JitsiMeet.Droid.Sample
                     = new JitsiMeetConferenceOptions.Builder()
                         .SetRoom(text)
                         .Build();
+
                 // Launch the new activity with the given options. The launch() method takes care
                 // of creating the required Intent and passing the options.
                 Org.Jitsi.Meet.Sdk.JitsiMeet.JitsiMeetActivity.Launch(this, options);

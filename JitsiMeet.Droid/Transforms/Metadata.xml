@@ -6,4 +6,8 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+
+    <!--<attr path="/api/package[@name='de.hdodenhof.circleimageview']" name="managedName">De.Hdodenhof.CircleImageView</attr>
+    <attr path="/api/package[@name='de.hdodenhof.circleimageview']/class[@name='CircleImageView']" name="visibility">public</attr>-->
+
 </metadata>
