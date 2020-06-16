@@ -56,7 +56,7 @@ namespace JitsiMeet.Droid.Sample
 
                 // Launch the new activity with the given options. The launch() method takes care
                 // of creating the required Intent and passing the options.
-                Org.Jitsi.Meet.Sdk.JitsiMeet.JitsiMeetActivity.Launch(this, options);
+                Org.Jitsi.Meet.Sdk.JitsiMeetActivity.Launch(this, options);
             }
         }
     }

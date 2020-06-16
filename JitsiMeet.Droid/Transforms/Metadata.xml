@@ -1,13 +1,11 @@
 ﻿<metadata>
-  <!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
-
-    <!--<attr path="/api/package[@name='de.hdodenhof.circleimageview']" name="managedName">De.Hdodenhof.CircleImageView</attr>
-    <attr path="/api/package[@name='de.hdodenhof.circleimageview']/class[@name='CircleImageView']" name="visibility">public</attr>-->
-
+    
+    <!--<remove-node path="/api/package[@name='org.jitsi.meet.sdk']/class[@name='BaseReactView']" />
+    <remove-node path="/api/package[@name='org.jitsi.meet.sdk']/interface[@name='JitsiMeetActivityInterface']" />
+    --><!--<remove-node path="/api/package[@name='org.jitsi.meet.sdk']/class[@name='JitsiMeetActivity']" />--><!--
+    <remove-node path="/api/package[@name='org.jitsi.meet.sdk']/class[@name='JitsiMeetActivityDelegate']" />
+    <remove-node path="/api/package[@name='org.jitsi.meet.sdk']/class[@name='JitsiMeetView']" />
+    <remove-node path="/api/package[@name='org.jitsi.meet.sdk']/class[@name='ListenerUtils']" />
+    <remove-node path="/api/package[@name='org.jitsi.meet.sdk.net']/class[@name='NAT64AddrInfoModule']" />-->
+    
 </metadata>
