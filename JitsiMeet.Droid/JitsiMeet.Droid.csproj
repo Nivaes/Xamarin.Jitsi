@@ -27,7 +27,7 @@
     <Compile Remove="Resources\**\*.cs" />
     <AndroidResource Include="Resources\**\*.xml" Generator="MSBuild:UpdateAndroidResources" />
     <LibraryProjectZip Include="Jars\*.aar" />
-    <!--<EmbeddedJar Include="Transforms\*.jar" />-->
+    <EmbeddedJar Include="Transforms\*.jar" />
     <TransformFile Include="Transforms\*.xml" />
   </ItemGroup>
 

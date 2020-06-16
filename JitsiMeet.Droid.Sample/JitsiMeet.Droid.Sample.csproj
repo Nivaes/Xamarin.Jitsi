@@ -38,6 +38,7 @@
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
     <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <AndroidDexTool>d8</AndroidDexTool>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -102,6 +103,9 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Naxam.SoLoader.Droid">
+      <Version>0.6.1.2</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.AppCompat">
       <Version>1.1.0.1</Version>
     </PackageReference>

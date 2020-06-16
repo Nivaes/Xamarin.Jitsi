@@ -6,6 +6,12 @@
     <remove-node path="/api/package[@name='com.facebook.react.modules.network']/interface[@name='CookieJarContainer']" />
     <remove-node path="/api/package[@name='com.facebook.react.modules.dialog']/class[@name='AlertFragment']" />
     <remove-node path="/api/package[@name='com.facebook.react.bridge']/class[@name='CatalystInstanceImpl']" />
+    <remove-node path="/api/package[@name='com.facebook.react.bridge']/class[@name='ReadableNativeArray']" />
+    <remove-node path="/api/package[@name='com.facebook.react.bridge']/class[@name='WritableNativeArray']" />
+    <remove-node path="/api/package[@name='com.facebook.react.bridge']/class[@name='GuardedAsyncTask']" />
+    <remove-node path="/api/package[@name='com.facebook.react.bridge']/class[@name='WritableNativeMap']" />
+    <remove-node path="/api/package[@name='com.facebook.react.bridge']/class[@name='ReadableNativeMap']" />
+    <remove-node path="/api/package[@name='com.facebook.react.devsupport']/class[@name='MultipartStreamReader']" />
     <remove-node path="/api/package[@name='com.facebook.react.views.text']/class[@name='ReactTextViewManager']" />
     <remove-node path="/api/package[@name='com.facebook.react.views.textinput']/class[@name='ReactTextInputManager']" />
     <remove-node path="/api/package[@name='com.facebook.react.views.text.frescosupport']/class[@name='FrescoBasedReactTextInlineImageViewManager']" />
@@ -34,17 +40,13 @@
     <remove-node path="/api/package[@name='com.facebook.react.views.switchview']/class[@name='ReactSwitchManager']" />
     <remove-node path="/api/package[@name='com.facebook.react.uimanager']/class[@name='RootViewManager']" />
     <remove-node path="/api/package[@name='com.facebook.react.uimanager']/class[@name='ViewManagerPropertyUpdater']" />
-    <remove-node path="/api/package[@name='com.facebook.react.bridge']/class[@name='ReadableNativeArray']" />
-    <remove-node path="/api/package[@name='com.facebook.react.bridge']/class[@name='WritableNativeArray']" />
-    <remove-node path="/api/package[@name='com.facebook.react.bridge']/class[@name='GuardedAsyncTask']" />
-    <remove-node path="/api/package[@name='com.facebook.react.bridge']/class[@name='WritableNativeMap']" />
-    <remove-node path="/api/package[@name='com.facebook.react.bridge']/class[@name='ReadableNativeMap']" />
     <remove-node path="/api/package[@name='com.facebook.yoga']/class[@name='YogaNodeJNIFinalizer']" />
     <remove-node path="/api/package[@name='com.facebook.yoga']/class[@name='YogaNodeJNIPhantomRefs']" />
     <remove-node path="/api/package[@name='com.facebook.yoga']/class[@name='YogaNode']/method[@name='cloneWithoutChildren' and count(parameter)=0]" />
     <remove-node path="/api/package[@name='com.facebook.yoga']/class[@name='YogaNodeJNIBase']" />
+    
 
     <remove-node path="/api/package[@name='com.facebook.react.modules.core']/interface[@name='PermissionAwareActivity']/method[@name='checkPermission' and count(parameter)=3 and parameter[1][@type='java.lang.String'] and parameter[2][@type='int'] and parameter[3][@type='int']]" />
     <remove-node path="/api/package[@name='com.facebook.react.modules.core']/interface[@name='PermissionAwareActivity']/method[@name='checkSelfPermission' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" />
-    
+
 </metadata>
