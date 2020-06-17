@@ -1,16 +1,16 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras">
   <PropertyGroup>
-    <TargetFramework>monoandroid10.0</TargetFramework>
-
-    <AssemblyName>Org.Jitsi.Meet.Sdk</AssemblyName>
-    <RootNamespace>Org.Jitsi.Meet.Sdk</RootNamespace>
+    <TargetFramework>monoandroid90</TargetFramework>
+    
+    <AssemblyName>Com.BV.LinearGradient</AssemblyName>
+    <RootNamespace>Com.BV.LinearGradient</RootNamespace>
     <Description>Binding library of https://github.com/jitsi/jitsi-meet</Description>
-    <PackageId>Nivaes.Xamarin.Jitsi.Meet.Sdk.Droid</PackageId>
-    <PackageTags>xamarin;android;monodroid;jitsi</PackageTags>
+    <PackageId>Nivaes.Com.BV.LinearGradient.Droid</PackageId>
+    <PackageTags>xamarin;android;monodroid;facebook;react;LinearGradient</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
     <!--<AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>-->
-    <Version>2.9.0.0</Version>
+    <Version>2.5.6.0</Version>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -22,7 +22,6 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   
- 
   <ItemGroup>
     <None Include="Resources\**\*.cs" />
     <Compile Remove="Resources\**\*.cs" />
@@ -31,16 +30,12 @@
     <EmbeddedJar Include="Jars\*.jar" />
     <TransformFile Include="Transforms\*.xml" />
   </ItemGroup>
-
+  
   <ItemGroup>
+    <!--<PackageReference Include="Naxam.SoLoader.Droid" Version="0.6.1.2" />
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.1.0.1" />
-    <PackageReference Include="Naxam.SoLoader.Droid" Version="0.6.1.2" />
-    <!--<PackageReference Include="Xamarin.AndroidX.Fragment" Version="1.2.4.1" />
+    <PackageReference Include="Xamarin.AndroidX.Fragment" Version="1.2.4.1" />
     <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4" Version="1.0.0.1" />-->
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Facebook.React.Jitsi.Droid\Facebook.React.Native.Jitsi.Droid.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿<metadata>
 
-    <!--<remove-node path="/api/package[@name='com.facebook.react']/class[@name='ReactActivity']" />-->
+    <remove-node path="/api/package[@name='com.facebook.react']/class[@name='ReactActivity']" />
     <remove-node path="/api/package[@name='com.facebook.react']/class[@name='EagerModuleProvider']" />
     <remove-node path="/api/package[@name='com.facebook.react.modules.network']/class[@name='ForwardingCookieHandler']" />
     <remove-node path="/api/package[@name='com.facebook.react.modules.network']/interface[@name='CookieJarContainer']" />
@@ -48,5 +48,5 @@
 
     <remove-node path="/api/package[@name='com.facebook.react.modules.core']/interface[@name='PermissionAwareActivity']/method[@name='checkPermission' and count(parameter)=3 and parameter[1][@type='java.lang.String'] and parameter[2][@type='int'] and parameter[3][@type='int']]" />
     <remove-node path="/api/package[@name='com.facebook.react.modules.core']/interface[@name='PermissionAwareActivity']/method[@name='checkSelfPermission' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" />
-    
+
 </metadata>

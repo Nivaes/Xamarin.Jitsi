@@ -1,11 +1,10 @@
 ﻿<metadata>
-    
-    <!--<remove-node path="/api/package[@name='org.jitsi.meet.sdk']/class[@name='BaseReactView']" />
-    <remove-node path="/api/package[@name='org.jitsi.meet.sdk']/interface[@name='JitsiMeetActivityInterface']" />
-    --><!--<remove-node path="/api/package[@name='org.jitsi.meet.sdk']/class[@name='JitsiMeetActivity']" />--><!--
-    <remove-node path="/api/package[@name='org.jitsi.meet.sdk']/class[@name='JitsiMeetActivityDelegate']" />
-    <remove-node path="/api/package[@name='org.jitsi.meet.sdk']/class[@name='JitsiMeetView']" />
-    <remove-node path="/api/package[@name='org.jitsi.meet.sdk']/class[@name='ListenerUtils']" />
-    <remove-node path="/api/package[@name='org.jitsi.meet.sdk.net']/class[@name='NAT64AddrInfoModule']" />-->
+
+    <remove-node path="/api/package[@name='com.BV.LinearGradient']/class[@name='LinearGradientManager']" />
+
+    <remove-node path="/api/package[@name='com.horcrux.svg']/class[@name='RenderableView']" />
+
+    <remove-node path="/api/package[@name='org.gradle.cli']/class[@name='AbstractCommandLineConverter']" />
+    <remove-node path="/api/package[@name='org.gradle.wrapper']/class[@name='Download']" />
     
 </metadata>

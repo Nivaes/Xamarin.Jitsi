@@ -1,6 +1,6 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras">
   <PropertyGroup>
-    <TargetFramework>monoandroid10.0</TargetFramework>
+    <TargetFramework>monoandroid90</TargetFramework>
     
     <AssemblyName>Com.Facebook.React</AssemblyName>
     <RootNamespace>Com.Facebook.React</RootNamespace>
@@ -27,14 +27,14 @@
     <Compile Remove="Resources\**\*.cs" />
     <AndroidResource Include="Resources\**\*.xml" Generator="MSBuild:UpdateAndroidResources" />
     <LibraryProjectZip Include="Jars\*.aar" />
-    <EmbeddedJar Include="Transforms\*.jar" />
+    <EmbeddedJar Include="Jars\*.jar" />
     <TransformFile Include="Transforms\*.xml" />
   </ItemGroup>
-
+  
   <ItemGroup>
-    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.1.0.1" />
+    <!--<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.1.0.1" />
     <PackageReference Include="Xamarin.AndroidX.Fragment" Version="1.2.4.1" />
-    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4" Version="1.0.0.1" />
+    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4" Version="1.0.0.1" />-->
   </ItemGroup>
 
 </Project>

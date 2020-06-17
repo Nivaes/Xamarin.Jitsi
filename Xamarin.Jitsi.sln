@@ -22,7 +22,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{E3DB6DC0-0F75-44EF-B3F8-D0E749E640D6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.React.Jitsi.Droid", "Facebook.React.Jitsi.Droid\Facebook.React.Jitsi.Droid.csproj", "{9327B784-5175-4CC3-89A2-8E188E8BED1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.React.Native.Jitsi.Droid", "Facebook.React.Jitsi.Droid\Facebook.React.Native.Jitsi.Droid.csproj", "{9327B784-5175-4CC3-89A2-8E188E8BED1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.React.Native.LinearGradient.Jitsi.Droid", "Facebook.React.LinearGradient.Jitsi.Droid\Facebook.React.Native.LinearGradient.Jitsi.Droid.csproj", "{EA4FB556-9C8E-43EE-B159-B9058F4E9B6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.React.Native.Calendar.Events.Jitsi.Droid", "Facebook.React.Native.Calendar.Events.Jitsi.Droid\Facebook.React.Native.Calendar.Events.Jitsi.Droid.csproj", "{851EDC4B-0D3C-497D-833C-04DCCC582060}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +48,14 @@ Global
 		{9327B784-5175-4CC3-89A2-8E188E8BED1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9327B784-5175-4CC3-89A2-8E188E8BED1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9327B784-5175-4CC3-89A2-8E188E8BED1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4FB556-9C8E-43EE-B159-B9058F4E9B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4FB556-9C8E-43EE-B159-B9058F4E9B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4FB556-9C8E-43EE-B159-B9058F4E9B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4FB556-9C8E-43EE-B159-B9058F4E9B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851EDC4B-0D3C-497D-833C-04DCCC582060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851EDC4B-0D3C-497D-833C-04DCCC582060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851EDC4B-0D3C-497D-833C-04DCCC582060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851EDC4B-0D3C-497D-833C-04DCCC582060}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +66,8 @@ Global
 		{AACC37DD-FE2A-42C5-9220-A2F0C758D3A0} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
 		{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
 		{9327B784-5175-4CC3-89A2-8E188E8BED1C} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{EA4FB556-9C8E-43EE-B159-B9058F4E9B6E} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{851EDC4B-0D3C-497D-833C-04DCCC582060} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62224AB5-FF68-4E81-A15A-A10904E9A0ED}
