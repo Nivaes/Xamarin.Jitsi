@@ -32,7 +32,6 @@
   
   <ItemGroup>
     <ProjectReference Include="..\Facebook.ReactNative.Droid\Facebook.ReactNative.Droid.csproj" />
-    <ProjectReference Include="..\Facebook.ReactNative.Jitsi.Droid\Facebook.ReactNative.Jitsi.Droid.csproj" />
   </ItemGroup>
 
 </Project>

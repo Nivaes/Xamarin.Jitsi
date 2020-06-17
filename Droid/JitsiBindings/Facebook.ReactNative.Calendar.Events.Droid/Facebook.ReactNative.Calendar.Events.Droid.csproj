@@ -9,7 +9,6 @@
     <PackageTags>xamarin;android;monodroid;facebook, react</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
-    <!--<AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>-->
     <Version>2.0.0.0</Version>
   </PropertyGroup>
 
@@ -32,9 +31,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <!--<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.1.0.1" />
-    <PackageReference Include="Xamarin.AndroidX.Fragment" Version="1.2.4.1" />
-    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4" Version="1.0.0.1" />-->
+    <ProjectReference Include="..\Facebook.ReactNative.Droid\Facebook.ReactNative.Droid.csproj" />
   </ItemGroup>
-
+  
 </Project>
