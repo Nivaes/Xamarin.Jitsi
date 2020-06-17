@@ -1,3 +1,4 @@
 ﻿<metadata>
-
+    <remove-node path="/api/package[@name='com.horcrux.svg']/class[@name='RenderableView']/field[@name='strokeDasharray']" />
+    <remove-node path="/api/package[@name='com.horcrux.svg']/class[@name='RenderableView']/field[@name='strokeWidth']" />
 </metadata>

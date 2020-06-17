@@ -141,6 +141,18 @@
       <Project>{15537ff0-ec15-492f-b0f3-d09e79f48c40}</Project>
       <Name>Facebook.ReactNative.Fast.Image.Jitsi.Droid</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Facebook.ReactNative.Fetch.Blob.Droid\Facebook.ReactNative.Fetch.Blob.Droid.csproj">
+      <Project>{25b5d0f5-6f07-4b30-8e9e-19e100472c9a}</Project>
+      <Name>Facebook.ReactNative.Fetch.Blob.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facebook.ReactNative.Google.Signin.Droid\Facebook.ReactNative.Google.Signin.Droid.csproj">
+      <Project>{b2814224-b14c-409b-bc39-0b0279a4e2d4}</Project>
+      <Name>Facebook.ReactNative.Google.Signin.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facebook.ReactNative.Immersive.Droid\Facebook.ReactNative.Immersive.Droid.csproj">
+      <Project>{ff7c2ccb-6936-451f-9ac5-35b0be9fb455}</Project>
+      <Name>Facebook.ReactNative.Immersive.Droid</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Facebook.ReactNative.Jitsi.Droid\Facebook.ReactNative.Jitsi.Droid.csproj">
       <Project>{626f26d8-fa30-4a31-a614-d840aa635604}</Project>
       <Name>Facebook.ReactNative.Jitsi.Droid</Name>
@@ -156,6 +168,10 @@
     <ProjectReference Include="..\Facebook.ReactNative.Local.Detector.Droid\Facebook.ReactNative.Local.Detector.Droid.csproj">
       <Project>{bec7d17e-153c-4bc4-8d1e-c62993b7643f}</Project>
       <Name>Facebook.ReactNative.Local.Detector.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facebook.ReactNative.Sound.Droid\Facebook.ReactNative.Sound.Droid.csproj">
+      <Project>{d0f5df03-d7ce-42b6-8010-2fc90a3d47d3}</Project>
+      <Name>Facebook.ReactNative.Sound.Droid</Name>
     </ProjectReference>
     <ProjectReference Include="..\Facebook.ReactNative.Svg.Droid\Facebook.ReactNative.Svg.Droid.csproj">
       <Project>{b780cef5-1fa0-44e4-a037-5631c5c959ea}</Project>
