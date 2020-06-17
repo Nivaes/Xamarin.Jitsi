@@ -2,11 +2,11 @@
   <PropertyGroup>
     <TargetFramework>monoandroid90</TargetFramework>
     
-    <AssemblyName>Facebook.Hermes.Jitsi.Droid</AssemblyName>
-    <RootNamespace>Facebook.Hermes.Jitsi.Droid</RootNamespace>
+    <AssemblyName>Facebook.Hermes.Droid</AssemblyName>
+    <RootNamespace>Facebook.Hermes.Droid</RootNamespace>
     <Description>Binding library of https://github.com/jitsi/jitsi-meet</Description>
     <PackageId>Nivaes.Jitsi.Facebook.Hermes.Droid</PackageId>
-    <PackageTags>xamarin;android;monodroid;facebook;react;LinearGradient</PackageTags>
+    <PackageTags>xamarin;android;monodroid;facebook;hermes</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
     <!--<AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>-->

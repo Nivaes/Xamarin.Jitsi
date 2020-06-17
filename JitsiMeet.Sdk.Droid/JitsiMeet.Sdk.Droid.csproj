@@ -41,20 +41,32 @@
 
   <ItemGroup>
 
+    <ProjectReference Include="..\Facebook.Hermes.Droid\Facebook.Hermes.Droid.csproj" />
+
     <ProjectReference Include="..\Facebook.Hermes.Jitsi.Droid\Facebook.Hermes.Droid.csproj" />
 
-    <ProjectReference Include="..\Facebook.ReactNative.Background.Timer.Jitsi.Droid\Facebook.ReactNative.Background.Timer.Jitsi.Droid.csproj" />
-    <ProjectReference Include="..\Facebook.ReactNative.Calendar.Events.Jitsi.Droid\Facebook.ReactNative.Calendar.Events.Jitsi.Droid.csproj" />
-    <ProjectReference Include="..\Facebook.ReactNative.Community.Async.Storage.Jitsi.Droid\Facebook.ReactNative.Community.Async.Storage.Jitsi.Droid.csproj" />
-    <ProjectReference Include="..\Facebook.ReactNative.Community.Netinfo.Jitsi.Droid\Facebook.ReactNative.Community.Netinfo.Jitsi.Droid.csproj" />
-    <ProjectReference Include="..\Facebook.ReactNative.Default.Preference.Jitsi.Droid\Facebook.ReactNative.Default.Preference.Jitsi.Droid.csproj" />
-    <ProjectReference Include="..\Facebook.ReactNative.Fast.Image.Jitsi.Droid\Facebook.ReactNative.Fast.Image.Jitsi.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Background.Timer.Droid\Facebook.ReactNative.Background.Timer.Droid.csproj" />
+
+    <ProjectReference Include="..\Facebook.ReactNative.Background.Timer.Jitsi.Droid\Facebook.ReactNative.Background.Timer.Droid.csproj" />
+
+    <ProjectReference Include="..\Facebook.ReactNative.Calendar.Events.Droid\Facebook.ReactNative.Calendar.Events.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Calendar.Events.Jitsi.Droid\Facebook.ReactNative.Calendar.Events.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Community.Async.Storage.Droid\Facebook.ReactNative.Community.Async.Storage.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Community.Async.Storage.Jitsi.Droid\Facebook.ReactNative.Community.Async.Storage.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Community.Netinfo.Droid\Facebook.ReactNative.Community.Netinfo.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Community.Netinfo.Jitsi.Droid\Facebook.ReactNative.Community.Netinfo.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Default.Preference.Droid\Facebook.ReactNative.Default.Preference.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Default.Preference.Jitsi.Droid\Facebook.ReactNative.Default.Preference.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Droid\Facebook.ReactNative.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Fast.Image.Droid\Facebook.ReactNative.Fast.Image.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Fast.Image.Jitsi.Droid\Facebook.ReactNative.Fast.Image.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Fetch.Blob.Droid\Facebook.ReactNative.Fetch.Blob.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Google.Signin.Droid\Facebook.ReactNative.Google.Signin.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Immersive.Droid\Facebook.ReactNative.Immersive.Droid.csproj" />
-    <ProjectReference Include="..\Facebook.ReactNative.Jitsi.Droid\Facebook.ReactNative.Jitsi.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Jitsi.Droid\Facebook.ReactNative.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Keep.Awake.Droid\Facebook.ReactNative.Keep.Awake.Droid.csproj" />
-    <ProjectReference Include="..\Facebook.ReactNative.LinearGradient.Jitsi.Droid\Facebook.ReactNative.LinearGradient.Jitsi.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.LinearGradient.Droid\Facebook.ReactNative.LinearGradient.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.LinearGradient.Jitsi.Droid\Facebook.ReactNative.LinearGradient.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Local.Detector.Droid\Facebook.ReactNative.Local.Detector.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Sound.Droid\Facebook.ReactNative.Sound.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Svg.Droid\Facebook.ReactNative.Svg.Droid.csproj" />

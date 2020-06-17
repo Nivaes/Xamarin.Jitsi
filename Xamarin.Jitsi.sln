@@ -20,23 +20,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{E3DB6DC0-0F75-44EF-B3F8-D0E749E640D6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Calendar.Events.Jitsi.Droid", "Facebook.ReactNative.Calendar.Events.Jitsi.Droid\Facebook.ReactNative.Calendar.Events.Jitsi.Droid.csproj", "{851EDC4B-0D3C-497D-833C-04DCCC582060}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Calendar.Events.Droid", "Facebook.ReactNative.Calendar.Events.Droid\Facebook.ReactNative.Calendar.Events.Droid.csproj", "{851EDC4B-0D3C-497D-833C-04DCCC582060}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Background.Timer.Jitsi.Droid", "Facebook.ReactNative.Background.Timer.Jitsi.Droid\Facebook.ReactNative.Background.Timer.Jitsi.Droid.csproj", "{4A1AFD30-4084-4CDF-8D59-60B701F2022B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Background.Timer.Droid", "Facebook.ReactNative.Background.Timer.Droid\Facebook.ReactNative.Background.Timer.Droid.csproj", "{4A1AFD30-4084-4CDF-8D59-60B701F2022B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Community.Async.Storage.Jitsi.Droid", "Facebook.ReactNative.Community.Async.Storage.Jitsi.Droid\Facebook.ReactNative.Community.Async.Storage.Jitsi.Droid.csproj", "{44005E12-CA64-4BE4-9304-FE1855EDBF79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Community.Async.Storage.Droid", "Facebook.ReactNative.Community.Async.Storage.Droid\Facebook.ReactNative.Community.Async.Storage.Droid.csproj", "{44005E12-CA64-4BE4-9304-FE1855EDBF79}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Community.Netinfo.Jitsi.Droid", "Facebook.ReactNative.Community.Netinfo.Jitsi.Droid\Facebook.ReactNative.Community.Netinfo.Jitsi.Droid.csproj", "{ABA2D592-2493-41E8-8DE3-63BBAF638BAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Community.Netinfo.Droid", "Facebook.ReactNative.Community.Netinfo.Droid\Facebook.ReactNative.Community.Netinfo.Droid.csproj", "{ABA2D592-2493-41E8-8DE3-63BBAF638BAA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Default.Preference.Jitsi.Droid", "Facebook.ReactNative.Default.Preference.Jitsi.Droid\Facebook.ReactNative.Default.Preference.Jitsi.Droid.csproj", "{7F8D7844-050C-4783-9BB2-C888B34B3EAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Default.Preference.Droid", "Facebook.ReactNative.Default.Preference.Droid\Facebook.ReactNative.Default.Preference.Droid.csproj", "{7F8D7844-050C-4783-9BB2-C888B34B3EAD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.LinearGradient.Jitsi.Droid", "Facebook.ReactNative.LinearGradient.Jitsi.Droid\Facebook.ReactNative.LinearGradient.Jitsi.Droid.csproj", "{19B2565B-20B3-44D7-B2CB-172880775AE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.LinearGradient.Droid", "Facebook.ReactNative.LinearGradient.Droid\Facebook.ReactNative.LinearGradient.Droid.csproj", "{19B2565B-20B3-44D7-B2CB-172880775AE2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JitsiMeet.Sdk.Droid", "JitsiMeet.Sdk.Droid\JitsiMeet.Sdk.Droid.csproj", "{42429DD1-5BE5-46E1-A943-5340901A51EE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Jitsi.Droid", "Facebook.ReactNative.Jitsi.Droid\Facebook.ReactNative.Jitsi.Droid.csproj", "{626F26D8-FA30-4A31-A614-D840AA635604}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Fast.Image.Jitsi.Droid", "Facebook.ReactNative.Fast.Image.Jitsi.Droid\Facebook.ReactNative.Fast.Image.Jitsi.Droid.csproj", "{15537FF0-EC15-492F-B0F3-D09E79F48C40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Fast.Image.Droid", "Facebook.ReactNative.Fast.Image.Droid\Facebook.ReactNative.Fast.Image.Droid.csproj", "{15537FF0-EC15-492F-B0F3-D09E79F48C40}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Keep.Awake.Droid", "Facebook.ReactNative.Keep.Awake.Droid\Facebook.ReactNative.Keep.Awake.Droid.csproj", "{4F207273-CA14-4B54-A40F-8DA7AA4232E7}"
 EndProject
@@ -60,7 +58,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Google
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Immersive.Droid", "Facebook.ReactNative.Immersive.Droid\Facebook.ReactNative.Immersive.Droid.csproj", "{FF7C2CCB-6936-451F-9AC5-35B0BE9FB455}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.Hermes.Droid", "Facebook.Hermes.Jitsi.Droid\Facebook.Hermes.Droid.csproj", "{5C257D97-247D-4B9E-931E-F6D5C96C6DCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.Hermes.Droid", "Facebook.Hermes.Droid\Facebook.Hermes.Droid.csproj", "{5C257D97-247D-4B9E-931E-F6D5C96C6DCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Droid", "Facebook.ReactNative.Droid\Facebook.ReactNative.Droid.csproj", "{19BF0E10-EDE7-4A1C-9F7C-52C5999D747D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -102,10 +102,6 @@ Global
 		{42429DD1-5BE5-46E1-A943-5340901A51EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42429DD1-5BE5-46E1-A943-5340901A51EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42429DD1-5BE5-46E1-A943-5340901A51EE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{626F26D8-FA30-4A31-A614-D840AA635604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{626F26D8-FA30-4A31-A614-D840AA635604}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{626F26D8-FA30-4A31-A614-D840AA635604}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{626F26D8-FA30-4A31-A614-D840AA635604}.Release|Any CPU.Build.0 = Release|Any CPU
 		{15537FF0-EC15-492F-B0F3-D09E79F48C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{15537FF0-EC15-492F-B0F3-D09E79F48C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15537FF0-EC15-492F-B0F3-D09E79F48C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -154,6 +150,10 @@ Global
 		{5C257D97-247D-4B9E-931E-F6D5C96C6DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C257D97-247D-4B9E-931E-F6D5C96C6DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C257D97-247D-4B9E-931E-F6D5C96C6DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19BF0E10-EDE7-4A1C-9F7C-52C5999D747D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19BF0E10-EDE7-4A1C-9F7C-52C5999D747D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19BF0E10-EDE7-4A1C-9F7C-52C5999D747D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19BF0E10-EDE7-4A1C-9F7C-52C5999D747D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -169,7 +169,6 @@ Global
 		{7F8D7844-050C-4783-9BB2-C888B34B3EAD} = {FD91F3D8-88EC-4156-83E2-FD985C0AC3D9}
 		{19B2565B-20B3-44D7-B2CB-172880775AE2} = {FD91F3D8-88EC-4156-83E2-FD985C0AC3D9}
 		{42429DD1-5BE5-46E1-A943-5340901A51EE} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
-		{626F26D8-FA30-4A31-A614-D840AA635604} = {FD91F3D8-88EC-4156-83E2-FD985C0AC3D9}
 		{15537FF0-EC15-492F-B0F3-D09E79F48C40} = {FD91F3D8-88EC-4156-83E2-FD985C0AC3D9}
 		{4F207273-CA14-4B54-A40F-8DA7AA4232E7} = {FD91F3D8-88EC-4156-83E2-FD985C0AC3D9}
 		{6C7B13A2-8F8F-40E1-8ACF-E795BE66BA52} = {FD91F3D8-88EC-4156-83E2-FD985C0AC3D9}
@@ -183,6 +182,7 @@ Global
 		{B2814224-B14C-409B-BC39-0B0279A4E2D4} = {FD91F3D8-88EC-4156-83E2-FD985C0AC3D9}
 		{FF7C2CCB-6936-451F-9AC5-35B0BE9FB455} = {FD91F3D8-88EC-4156-83E2-FD985C0AC3D9}
 		{5C257D97-247D-4B9E-931E-F6D5C96C6DCB} = {FD91F3D8-88EC-4156-83E2-FD985C0AC3D9}
+		{19BF0E10-EDE7-4A1C-9F7C-52C5999D747D} = {FD91F3D8-88EC-4156-83E2-FD985C0AC3D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62224AB5-FF68-4E81-A15A-A10904E9A0ED}

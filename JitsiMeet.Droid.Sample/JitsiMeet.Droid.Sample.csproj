@@ -117,33 +117,37 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Facebook.Hermes.Jitsi.Droid\Facebook.Hermes.Droid.csproj">
+    <ProjectReference Include="..\Facebook.Hermes.Droid\Facebook.Hermes.Droid.csproj">
       <Project>{5c257d97-247d-4b9e-931e-f6d5c96c6dcb}</Project>
       <Name>Facebook.Hermes.Droid</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Facebook.ReactNative.Background.Timer.Jitsi.Droid\Facebook.ReactNative.Background.Timer.Jitsi.Droid.csproj">
+    <ProjectReference Include="..\Facebook.ReactNative.Background.Timer.Droid\Facebook.ReactNative.Background.Timer.Droid.csproj">
       <Project>{4a1afd30-4084-4cdf-8d59-60b701f2022b}</Project>
-      <Name>Facebook.ReactNative.Background.Timer.Jitsi.Droid</Name>
+      <Name>Facebook.ReactNative.Background.Timer.Droid</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Facebook.ReactNative.Calendar.Events.Jitsi.Droid\Facebook.ReactNative.Calendar.Events.Jitsi.Droid.csproj">
+    <ProjectReference Include="..\Facebook.ReactNative.Calendar.Events.Droid\Facebook.ReactNative.Calendar.Events.Droid.csproj">
       <Project>{851edc4b-0d3c-497d-833c-04dccc582060}</Project>
-      <Name>Facebook.ReactNative.Calendar.Events.Jitsi.Droid</Name>
+      <Name>Facebook.ReactNative.Calendar.Events.Droid</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Facebook.ReactNative.Community.Async.Storage.Jitsi.Droid\Facebook.ReactNative.Community.Async.Storage.Jitsi.Droid.csproj">
+    <ProjectReference Include="..\Facebook.ReactNative.Community.Async.Storage.Droid\Facebook.ReactNative.Community.Async.Storage.Droid.csproj">
       <Project>{44005e12-ca64-4be4-9304-fe1855edbf79}</Project>
-      <Name>Facebook.ReactNative.Community.Async.Storage.Jitsi.Droid</Name>
+      <Name>Facebook.ReactNative.Community.Async.Storage.Droid</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Facebook.ReactNative.Community.Netinfo.Jitsi.Droid\Facebook.ReactNative.Community.Netinfo.Jitsi.Droid.csproj">
+    <ProjectReference Include="..\Facebook.ReactNative.Community.Netinfo.Droid\Facebook.ReactNative.Community.Netinfo.Droid.csproj">
       <Project>{aba2d592-2493-41e8-8de3-63bbaf638baa}</Project>
-      <Name>Facebook.ReactNative.Community.Netinfo.Jitsi.Droid</Name>
+      <Name>Facebook.ReactNative.Community.Netinfo.Droid</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Facebook.ReactNative.Default.Preference.Jitsi.Droid\Facebook.ReactNative.Default.Preference.Jitsi.Droid.csproj">
+    <ProjectReference Include="..\Facebook.ReactNative.Default.Preference.Droid\Facebook.ReactNative.Default.Preference.Droid.csproj">
       <Project>{7f8d7844-050c-4783-9bb2-c888b34b3ead}</Project>
-      <Name>Facebook.ReactNative.Default.Preference.Jitsi.Droid</Name>
+      <Name>Facebook.ReactNative.Default.Preference.Droid</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Facebook.ReactNative.Fast.Image.Jitsi.Droid\Facebook.ReactNative.Fast.Image.Jitsi.Droid.csproj">
+    <ProjectReference Include="..\Facebook.ReactNative.Droid\Facebook.ReactNative.Droid.csproj">
+      <Project>{19bf0e10-ede7-4a1c-9f7c-52c5999d747d}</Project>
+      <Name>Facebook.ReactNative.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facebook.ReactNative.Fast.Image.Droid\Facebook.ReactNative.Fast.Image.Droid.csproj">
       <Project>{15537ff0-ec15-492f-b0f3-d09e79f48c40}</Project>
-      <Name>Facebook.ReactNative.Fast.Image.Jitsi.Droid</Name>
+      <Name>Facebook.ReactNative.Fast.Image.Droid</Name>
     </ProjectReference>
     <ProjectReference Include="..\Facebook.ReactNative.Fetch.Blob.Droid\Facebook.ReactNative.Fetch.Blob.Droid.csproj">
       <Project>{25b5d0f5-6f07-4b30-8e9e-19e100472c9a}</Project>
@@ -157,17 +161,13 @@
       <Project>{ff7c2ccb-6936-451f-9ac5-35b0be9fb455}</Project>
       <Name>Facebook.ReactNative.Immersive.Droid</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Facebook.ReactNative.Jitsi.Droid\Facebook.ReactNative.Jitsi.Droid.csproj">
-      <Project>{626f26d8-fa30-4a31-a614-d840aa635604}</Project>
-      <Name>Facebook.ReactNative.Jitsi.Droid</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Facebook.ReactNative.Keep.Awake.Droid\Facebook.ReactNative.Keep.Awake.Droid.csproj">
       <Project>{4f207273-ca14-4b54-a40f-8da7aa4232e7}</Project>
       <Name>Facebook.ReactNative.Keep.Awake.Droid</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Facebook.ReactNative.LinearGradient.Jitsi.Droid\Facebook.ReactNative.LinearGradient.Jitsi.Droid.csproj">
+    <ProjectReference Include="..\Facebook.ReactNative.LinearGradient.Droid\Facebook.ReactNative.LinearGradient.Droid.csproj">
       <Project>{19b2565b-20b3-44d7-b2cb-172880775ae2}</Project>
-      <Name>Facebook.ReactNative.LinearGradient.Jitsi.Droid</Name>
+      <Name>Facebook.ReactNative.LinearGradient.Droid</Name>
     </ProjectReference>
     <ProjectReference Include="..\Facebook.ReactNative.Local.Detector.Droid\Facebook.ReactNative.Local.Detector.Droid.csproj">
       <Project>{bec7d17e-153c-4bc4-8d1e-c62993b7643f}</Project>
