@@ -2,8 +2,8 @@
   <PropertyGroup>
     <TargetFramework>monoandroid90</TargetFramework>
     
-    <AssemblyName>Nivaes.Facebook.ReactNative.Jitsi.Droid</AssemblyName>
-    <RootNamespace>Nivaes.Facebook.ReactNative.Jitsi.Droid</RootNamespace>
+    <AssemblyName>Facebook.ReactNative.Jitsi.Droid</AssemblyName>
+    <RootNamespace>Facebook.ReactNative.Jitsi.Droid</RootNamespace>
     <Description>Binding library of https://github.com/jitsi/jitsi-meet</Description>
     <PackageId>Nivaes.Facebook.ReactNative.Jitsi.Droid</PackageId>
     <PackageTags>xamarin;android;monodroid;facebook, react</PackageTags>

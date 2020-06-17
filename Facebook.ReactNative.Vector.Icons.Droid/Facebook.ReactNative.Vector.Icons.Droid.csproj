@@ -2,14 +2,14 @@
   <PropertyGroup>
     <TargetFramework>monoandroid90</TargetFramework>
 
-    <AssemblyName>Facebook.ReactNative.WebRTC.Droid</AssemblyName>
-    <RootNamespace>Facebook.ReactNative.WebRTC.Droid</RootNamespace>
+    <AssemblyName>Facebook.ReactNative.Vector.Icons.Droid</AssemblyName>
+    <RootNamespace>Facebook.ReactNative.Vector.Icons.Droid</RootNamespace>
     <Description>Binding library of https://github.com/jitsi/jitsi-meet</Description>
-    <PackageId>Nivaes.Facebook.ReactNative.WebRTC.Droid</PackageId>
+    <PackageId>Nivaes.Facebook.ReactNative.Vector.Icons.Droid</PackageId>
     <PackageTags>xamarin;android;monodroid;facebook;react;LinearGradient</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
-    <Version>1.75.3.0</Version>
+    <Version>6.0.2.0</Version>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -46,6 +46,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.WebVie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Svg.Droid", "Facebook.ReactNative.Svg.Droid\Facebook.ReactNative.Svg.Droid.csproj", "{B780CEF5-1FA0-44E4-A037-5631C5C959EA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Vector.Icons.Droid", "Facebook.ReactNative.Vector.Icons.Droid\Facebook.ReactNative.Vector.Icons.Droid.csproj", "{465BD4A7-6C21-41A5-92C0-F9515344943F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Local.Detector.Droid", "Facebook.ReactNative.Local.Detector.Droid\Facebook.ReactNative.Local.Detector.Droid.csproj", "{BEC7D17E-153C-4BC4-8D1E-C62993B7643F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Sound.Droid", "Facebook.ReactNative.Sound.Droid\Facebook.ReactNative.Sound.Droid.csproj", "{D0F5DF03-D7CE-42B6-8010-2FC90A3D47D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Fetch.Blob.Droid", "Facebook.ReactNative.Fetch.Blob.Droid\Facebook.ReactNative.Fetch.Blob.Droid.csproj", "{25B5D0F5-6F07-4B30-8E9E-19E100472C9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -110,6 +118,22 @@ Global
 		{B780CEF5-1FA0-44E4-A037-5631C5C959EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B780CEF5-1FA0-44E4-A037-5631C5C959EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B780CEF5-1FA0-44E4-A037-5631C5C959EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{465BD4A7-6C21-41A5-92C0-F9515344943F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{465BD4A7-6C21-41A5-92C0-F9515344943F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{465BD4A7-6C21-41A5-92C0-F9515344943F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{465BD4A7-6C21-41A5-92C0-F9515344943F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC7D17E-153C-4BC4-8D1E-C62993B7643F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC7D17E-153C-4BC4-8D1E-C62993B7643F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC7D17E-153C-4BC4-8D1E-C62993B7643F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC7D17E-153C-4BC4-8D1E-C62993B7643F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F5DF03-D7CE-42B6-8010-2FC90A3D47D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F5DF03-D7CE-42B6-8010-2FC90A3D47D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F5DF03-D7CE-42B6-8010-2FC90A3D47D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F5DF03-D7CE-42B6-8010-2FC90A3D47D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25B5D0F5-6F07-4B30-8E9E-19E100472C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25B5D0F5-6F07-4B30-8E9E-19E100472C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25B5D0F5-6F07-4B30-8E9E-19E100472C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25B5D0F5-6F07-4B30-8E9E-19E100472C9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,6 +155,10 @@ Global
 		{6C7B13A2-8F8F-40E1-8ACF-E795BE66BA52} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
 		{BD39B68A-5DD4-4B2A-8923-2FF6C2ED6563} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
 		{B780CEF5-1FA0-44E4-A037-5631C5C959EA} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{465BD4A7-6C21-41A5-92C0-F9515344943F} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{BEC7D17E-153C-4BC4-8D1E-C62993B7643F} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{D0F5DF03-D7CE-42B6-8010-2FC90A3D47D3} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{25B5D0F5-6F07-4B30-8E9E-19E100472C9A} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62224AB5-FF68-4E81-A15A-A10904E9A0ED}

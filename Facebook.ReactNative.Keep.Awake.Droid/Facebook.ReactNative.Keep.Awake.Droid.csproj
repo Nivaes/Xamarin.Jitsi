@@ -5,7 +5,7 @@
     <AssemblyName>Facebook.ReactNative.Keep.Awake.Droid</AssemblyName>
     <RootNamespace>Facebook.ReactNative.Keep.Awake.Droid</RootNamespace>
     <Description>Binding library of https://github.com/jitsi/jitsi-meet</Description>
-    <PackageId>Facebook.ReactNative.Keep.Awake.Droid</PackageId>
+    <PackageId>Nivaes.Facebook.ReactNative.Keep.Awake.Droid</PackageId>
     <PackageTags>xamarin;android;monodroid;facebook;react;LinearGradient</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 

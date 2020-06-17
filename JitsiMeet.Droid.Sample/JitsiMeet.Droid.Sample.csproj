@@ -153,9 +153,17 @@
       <Project>{19b2565b-20b3-44d7-b2cb-172880775ae2}</Project>
       <Name>Facebook.ReactNative.LinearGradient.Jitsi.Droid</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Facebook.ReactNative.Local.Detector.Droid\Facebook.ReactNative.Local.Detector.Droid.csproj">
+      <Project>{bec7d17e-153c-4bc4-8d1e-c62993b7643f}</Project>
+      <Name>Facebook.ReactNative.Local.Detector.Droid</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Facebook.ReactNative.Svg.Droid\Facebook.ReactNative.Svg.Droid.csproj">
       <Project>{b780cef5-1fa0-44e4-a037-5631c5c959ea}</Project>
       <Name>Facebook.ReactNative.Svg.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facebook.ReactNative.Vector.Icons.Droid\Facebook.ReactNative.Vector.Icons.Droid.csproj">
+      <Project>{465bd4a7-6c21-41a5-92c0-f9515344943f}</Project>
+      <Name>Facebook.ReactNative.Vector.Icons.Droid</Name>
     </ProjectReference>
     <ProjectReference Include="..\Facebook.ReactNative.WebRTC.Droid\Facebook.ReactNative.WebRTC.Droid.csproj">
       <Project>{6c7b13a2-8f8f-40e1-8acf-e795be66ba52}</Project>

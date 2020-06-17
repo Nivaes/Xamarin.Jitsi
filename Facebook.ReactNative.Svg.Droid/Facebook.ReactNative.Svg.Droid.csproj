@@ -2,14 +2,14 @@
   <PropertyGroup>
     <TargetFramework>monoandroid90</TargetFramework>
 
-    <AssemblyName>Facebook.ReactNative.Keep.Awake.Droid</AssemblyName>
-    <RootNamespace>Facebook.ReactNative.Keep.Awake.Droid</RootNamespace>
+    <AssemblyName>Facebook.ReactNative.Svg.Droid</AssemblyName>
+    <RootNamespace>Facebook.ReactNative.Svg.Droid</RootNamespace>
     <Description>Binding library of https://github.com/jitsi/jitsi-meet</Description>
-    <PackageId>Facebook.ReactNative.Keep.Awake.Droid</PackageId>
+    <PackageId>Nivaes.Facebook.ReactNative.Svg.Droid</PackageId>
     <PackageTags>xamarin;android;monodroid;facebook;react;LinearGradient</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
-    <Version>4.0.0.0</Version>
+    <Version>9.7.1.0</Version>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -36,6 +36,10 @@
     <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4" Version="1.0.0.1" />-->
   
     <Folder Include="Jars\" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Facebook.ReactNative.Jitsi.Droid\Facebook.ReactNative.Jitsi.Droid.csproj" />
   </ItemGroup>
 
 </Project>

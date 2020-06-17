@@ -2,14 +2,14 @@
   <PropertyGroup>
     <TargetFramework>monoandroid90</TargetFramework>
 
-    <AssemblyName>Facebook.ReactNative.WebRTC.Droid</AssemblyName>
-    <RootNamespace>Facebook.ReactNative.WebRTC.Droid</RootNamespace>
+    <AssemblyName>Facebook.ReactNative.Fetch.Blob.Droid</AssemblyName>
+    <RootNamespace>Facebook.ReactNative.Fetch.Blob.Droid</RootNamespace>
     <Description>Binding library of https://github.com/jitsi/jitsi-meet</Description>
-    <PackageId>Nivaes.Facebook.ReactNative.WebRTC.Droid</PackageId>
+    <PackageId>Nivaes.Facebook.ReactNative.Fetch.Blob.Droid</PackageId>
     <PackageTags>xamarin;android;monodroid;facebook;react;LinearGradient</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
-    <Version>1.75.3.0</Version>
+    <Version>0.10.8.0</Version>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -30,11 +30,16 @@
     <TransformFile Include="Transforms\*.xml" />
   </ItemGroup>
   
-  <ItemGroup>
-    <!--<PackageReference Include="Naxam.SoLoader.Droid" Version="0.6.1.2" />
+  <ItemGroup><!--<PackageReference Include="Naxam.SoLoader.Droid" Version="0.6.1.2" />
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.1.0.1" />
     <PackageReference Include="Xamarin.AndroidX.Fragment" Version="1.2.4.1" />
     <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4" Version="1.0.0.1" />-->
+  
+    <Folder Include="Jars\" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Facebook.ReactNative.Jitsi.Droid\Facebook.ReactNative.Jitsi.Droid.csproj" />
   </ItemGroup>
 
 </Project>

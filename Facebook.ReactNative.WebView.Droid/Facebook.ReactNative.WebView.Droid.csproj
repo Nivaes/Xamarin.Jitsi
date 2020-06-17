@@ -5,7 +5,7 @@
     <AssemblyName>Facebook.ReactNative.WebView.Droid</AssemblyName>
     <RootNamespace>Facebook.ReactNative.WebView.Droid</RootNamespace>
     <Description>Binding library of https://github.com/jitsi/jitsi-meet</Description>
-    <PackageId>Facebook.ReactNative.WebView.Droid</PackageId>
+    <PackageId>Nivaes.Facebook.ReactNative.WebView.Droid</PackageId>
     <PackageTags>xamarin;android;monodroid;facebook;react;LinearGradient</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
