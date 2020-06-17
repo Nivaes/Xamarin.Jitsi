@@ -7,8 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Droid", "Droid", "{CFF52087
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iOS", "iOS", "{F15BE073-8C96-4CDE-9816-AE5ED45279A5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JitsiMeet.Droid", "JitsiMeet.Droid\JitsiMeet.Droid.csproj", "{AACC37DD-FE2A-42C5-9220-A2F0C758D3A0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JitsiMeet.Droid.Sample", "JitsiMeet.Droid.Sample\JitsiMeet.Droid.Sample.csproj", "{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD00C330-038B-4785-A42C-E7AB64ED0537}"
@@ -22,11 +20,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{E3DB6DC0-0F75-44EF-B3F8-D0E749E640D6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.React.Native.Jitsi.Droid", "Facebook.React.Jitsi.Droid\Facebook.React.Native.Jitsi.Droid.csproj", "{9327B784-5175-4CC3-89A2-8E188E8BED1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Calendar.Events.Jitsi.Droid", "Facebook.ReactNative.Calendar.Events.Jitsi.Droid\Facebook.ReactNative.Calendar.Events.Jitsi.Droid.csproj", "{851EDC4B-0D3C-497D-833C-04DCCC582060}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.React.Native.LinearGradient.Jitsi.Droid", "Facebook.React.LinearGradient.Jitsi.Droid\Facebook.React.Native.LinearGradient.Jitsi.Droid.csproj", "{EA4FB556-9C8E-43EE-B159-B9058F4E9B6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Background.Timer.Jitsi.Droid", "Facebook.ReactNative.Background.Timer.Jitsi.Droid\Facebook.ReactNative.Background.Timer.Jitsi.Droid.csproj", "{4A1AFD30-4084-4CDF-8D59-60B701F2022B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.React.Native.Calendar.Events.Jitsi.Droid", "Facebook.React.Native.Calendar.Events.Jitsi.Droid\Facebook.React.Native.Calendar.Events.Jitsi.Droid.csproj", "{851EDC4B-0D3C-497D-833C-04DCCC582060}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Community.Async.Storage.Jitsi.Droid", "Facebook.ReactNative.Community.Async.Storage.Jitsi.Droid\Facebook.ReactNative.Community.Async.Storage.Jitsi.Droid.csproj", "{44005E12-CA64-4BE4-9304-FE1855EDBF79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Community.Netinfo.Jitsi.Droid", "Facebook.ReactNative.Community.Netinfo.Jitsi.Droid\Facebook.ReactNative.Community.Netinfo.Jitsi.Droid.csproj", "{ABA2D592-2493-41E8-8DE3-63BBAF638BAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Default.Preference.Jitsi.Droid", "Facebook.ReactNative.Default.Preference.Jitsi.Droid\Facebook.ReactNative.Default.Preference.Jitsi.Droid.csproj", "{7F8D7844-050C-4783-9BB2-C888B34B3EAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.LinearGradient.Jitsi.Droid", "Facebook.ReactNative.LinearGradient.Jitsi.Droid\Facebook.ReactNative.LinearGradient.Jitsi.Droid.csproj", "{19B2565B-20B3-44D7-B2CB-172880775AE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JitsiMeet.Sdk.Droid", "JitsiMeet.Sdk.Droid\JitsiMeet.Sdk.Droid.csproj", "{42429DD1-5BE5-46E1-A943-5340901A51EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Jitsi.Droid", "Facebook.ReactNative.Jitsi.Droid\Facebook.ReactNative.Jitsi.Droid.csproj", "{626F26D8-FA30-4A31-A614-D840AA635604}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Fast.Image.Jitsi.Droid", "Facebook.ReactNative.Fast.Image.Jitsi.Droid\Facebook.ReactNative.Fast.Image.Jitsi.Droid.csproj", "{15537FF0-EC15-492F-B0F3-D09E79F48C40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Keep.Awake.Droid", "Facebook.ReactNative.Keep.Awake.Droid\Facebook.ReactNative.Keep.Awake.Droid.csproj", "{4F207273-CA14-4B54-A40F-8DA7AA4232E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.WebRTC.Droid", "Facebook.ReactNative.WebRTC.Droid\Facebook.ReactNative.WebRTC.Droid.csproj", "{6C7B13A2-8F8F-40E1-8ACF-E795BE66BA52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.WebView.Droid", "Facebook.ReactNative.WebView.Droid\Facebook.ReactNative.WebView.Droid.csproj", "{BD39B68A-5DD4-4B2A-8923-2FF6C2ED6563}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Svg.Droid", "Facebook.ReactNative.Svg.Droid\Facebook.ReactNative.Svg.Droid.csproj", "{B780CEF5-1FA0-44E4-A037-5631C5C959EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,28 +52,64 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AACC37DD-FE2A-42C5-9220-A2F0C758D3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AACC37DD-FE2A-42C5-9220-A2F0C758D3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AACC37DD-FE2A-42C5-9220-A2F0C758D3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AACC37DD-FE2A-42C5-9220-A2F0C758D3A0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{9327B784-5175-4CC3-89A2-8E188E8BED1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9327B784-5175-4CC3-89A2-8E188E8BED1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9327B784-5175-4CC3-89A2-8E188E8BED1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9327B784-5175-4CC3-89A2-8E188E8BED1C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EA4FB556-9C8E-43EE-B159-B9058F4E9B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA4FB556-9C8E-43EE-B159-B9058F4E9B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA4FB556-9C8E-43EE-B159-B9058F4E9B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA4FB556-9C8E-43EE-B159-B9058F4E9B6E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{851EDC4B-0D3C-497D-833C-04DCCC582060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{851EDC4B-0D3C-497D-833C-04DCCC582060}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{851EDC4B-0D3C-497D-833C-04DCCC582060}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{851EDC4B-0D3C-497D-833C-04DCCC582060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1AFD30-4084-4CDF-8D59-60B701F2022B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1AFD30-4084-4CDF-8D59-60B701F2022B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1AFD30-4084-4CDF-8D59-60B701F2022B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1AFD30-4084-4CDF-8D59-60B701F2022B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44005E12-CA64-4BE4-9304-FE1855EDBF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44005E12-CA64-4BE4-9304-FE1855EDBF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44005E12-CA64-4BE4-9304-FE1855EDBF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44005E12-CA64-4BE4-9304-FE1855EDBF79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA2D592-2493-41E8-8DE3-63BBAF638BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA2D592-2493-41E8-8DE3-63BBAF638BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA2D592-2493-41E8-8DE3-63BBAF638BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA2D592-2493-41E8-8DE3-63BBAF638BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8D7844-050C-4783-9BB2-C888B34B3EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8D7844-050C-4783-9BB2-C888B34B3EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8D7844-050C-4783-9BB2-C888B34B3EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8D7844-050C-4783-9BB2-C888B34B3EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B2565B-20B3-44D7-B2CB-172880775AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B2565B-20B3-44D7-B2CB-172880775AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B2565B-20B3-44D7-B2CB-172880775AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B2565B-20B3-44D7-B2CB-172880775AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42429DD1-5BE5-46E1-A943-5340901A51EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42429DD1-5BE5-46E1-A943-5340901A51EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42429DD1-5BE5-46E1-A943-5340901A51EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42429DD1-5BE5-46E1-A943-5340901A51EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626F26D8-FA30-4A31-A614-D840AA635604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626F26D8-FA30-4A31-A614-D840AA635604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626F26D8-FA30-4A31-A614-D840AA635604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626F26D8-FA30-4A31-A614-D840AA635604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15537FF0-EC15-492F-B0F3-D09E79F48C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15537FF0-EC15-492F-B0F3-D09E79F48C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15537FF0-EC15-492F-B0F3-D09E79F48C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15537FF0-EC15-492F-B0F3-D09E79F48C40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F207273-CA14-4B54-A40F-8DA7AA4232E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F207273-CA14-4B54-A40F-8DA7AA4232E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F207273-CA14-4B54-A40F-8DA7AA4232E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F207273-CA14-4B54-A40F-8DA7AA4232E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C7B13A2-8F8F-40E1-8ACF-E795BE66BA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C7B13A2-8F8F-40E1-8ACF-E795BE66BA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C7B13A2-8F8F-40E1-8ACF-E795BE66BA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C7B13A2-8F8F-40E1-8ACF-E795BE66BA52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD39B68A-5DD4-4B2A-8923-2FF6C2ED6563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD39B68A-5DD4-4B2A-8923-2FF6C2ED6563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD39B68A-5DD4-4B2A-8923-2FF6C2ED6563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD39B68A-5DD4-4B2A-8923-2FF6C2ED6563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B780CEF5-1FA0-44E4-A037-5631C5C959EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B780CEF5-1FA0-44E4-A037-5631C5C959EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B780CEF5-1FA0-44E4-A037-5631C5C959EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B780CEF5-1FA0-44E4-A037-5631C5C959EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,11 +117,20 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CFF52087-2C2B-46CA-9B33-5CE055037CEA} = {E3DB6DC0-0F75-44EF-B3F8-D0E749E640D6}
 		{F15BE073-8C96-4CDE-9816-AE5ED45279A5} = {E3DB6DC0-0F75-44EF-B3F8-D0E749E640D6}
-		{AACC37DD-FE2A-42C5-9220-A2F0C758D3A0} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
 		{B8BCF0A5-9BE8-4CFF-99FB-E783BD17345F} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
-		{9327B784-5175-4CC3-89A2-8E188E8BED1C} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
-		{EA4FB556-9C8E-43EE-B159-B9058F4E9B6E} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
 		{851EDC4B-0D3C-497D-833C-04DCCC582060} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{4A1AFD30-4084-4CDF-8D59-60B701F2022B} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{44005E12-CA64-4BE4-9304-FE1855EDBF79} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{ABA2D592-2493-41E8-8DE3-63BBAF638BAA} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{7F8D7844-050C-4783-9BB2-C888B34B3EAD} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{19B2565B-20B3-44D7-B2CB-172880775AE2} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{42429DD1-5BE5-46E1-A943-5340901A51EE} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{626F26D8-FA30-4A31-A614-D840AA635604} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{15537FF0-EC15-492F-B0F3-D09E79F48C40} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{4F207273-CA14-4B54-A40F-8DA7AA4232E7} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{6C7B13A2-8F8F-40E1-8ACF-E795BE66BA52} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{BD39B68A-5DD4-4B2A-8923-2FF6C2ED6563} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
+		{B780CEF5-1FA0-44E4-A037-5631C5C959EA} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62224AB5-FF68-4E81-A15A-A10904E9A0ED}

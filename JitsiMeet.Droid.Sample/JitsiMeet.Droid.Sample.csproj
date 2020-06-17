@@ -109,11 +109,65 @@
     <PackageReference Include="Xamarin.AndroidX.ConstraintLayout">
       <Version>1.1.3.1</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Fragment">
+      <Version>1.2.4.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4">
+      <Version>1.0.0.1</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\JitsiMeet.Droid\JitsiMeet.Droid.csproj">
-      <Project>{aacc37dd-fe2a-42c5-9220-a2f0c758d3a0}</Project>
-      <Name>JitsiMeet.Droid</Name>
+    <ProjectReference Include="..\Facebook.ReactNative.Background.Timer.Jitsi.Droid\Facebook.ReactNative.Background.Timer.Jitsi.Droid.csproj">
+      <Project>{4a1afd30-4084-4cdf-8d59-60b701f2022b}</Project>
+      <Name>Facebook.ReactNative.Background.Timer.Jitsi.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facebook.ReactNative.Calendar.Events.Jitsi.Droid\Facebook.ReactNative.Calendar.Events.Jitsi.Droid.csproj">
+      <Project>{851edc4b-0d3c-497d-833c-04dccc582060}</Project>
+      <Name>Facebook.ReactNative.Calendar.Events.Jitsi.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facebook.ReactNative.Community.Async.Storage.Jitsi.Droid\Facebook.ReactNative.Community.Async.Storage.Jitsi.Droid.csproj">
+      <Project>{44005e12-ca64-4be4-9304-fe1855edbf79}</Project>
+      <Name>Facebook.ReactNative.Community.Async.Storage.Jitsi.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facebook.ReactNative.Community.Netinfo.Jitsi.Droid\Facebook.ReactNative.Community.Netinfo.Jitsi.Droid.csproj">
+      <Project>{aba2d592-2493-41e8-8de3-63bbaf638baa}</Project>
+      <Name>Facebook.ReactNative.Community.Netinfo.Jitsi.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facebook.ReactNative.Default.Preference.Jitsi.Droid\Facebook.ReactNative.Default.Preference.Jitsi.Droid.csproj">
+      <Project>{7f8d7844-050c-4783-9bb2-c888b34b3ead}</Project>
+      <Name>Facebook.ReactNative.Default.Preference.Jitsi.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facebook.ReactNative.Fast.Image.Jitsi.Droid\Facebook.ReactNative.Fast.Image.Jitsi.Droid.csproj">
+      <Project>{15537ff0-ec15-492f-b0f3-d09e79f48c40}</Project>
+      <Name>Facebook.ReactNative.Fast.Image.Jitsi.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facebook.ReactNative.Jitsi.Droid\Facebook.ReactNative.Jitsi.Droid.csproj">
+      <Project>{626f26d8-fa30-4a31-a614-d840aa635604}</Project>
+      <Name>Facebook.ReactNative.Jitsi.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facebook.ReactNative.Keep.Awake.Droid\Facebook.ReactNative.Keep.Awake.Droid.csproj">
+      <Project>{4f207273-ca14-4b54-a40f-8da7aa4232e7}</Project>
+      <Name>Facebook.ReactNative.Keep.Awake.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facebook.ReactNative.LinearGradient.Jitsi.Droid\Facebook.ReactNative.LinearGradient.Jitsi.Droid.csproj">
+      <Project>{19b2565b-20b3-44d7-b2cb-172880775ae2}</Project>
+      <Name>Facebook.ReactNative.LinearGradient.Jitsi.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facebook.ReactNative.Svg.Droid\Facebook.ReactNative.Svg.Droid.csproj">
+      <Project>{b780cef5-1fa0-44e4-a037-5631c5c959ea}</Project>
+      <Name>Facebook.ReactNative.Svg.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facebook.ReactNative.WebRTC.Droid\Facebook.ReactNative.WebRTC.Droid.csproj">
+      <Project>{6c7b13a2-8f8f-40e1-8acf-e795be66ba52}</Project>
+      <Name>Facebook.ReactNative.WebRTC.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facebook.ReactNative.WebView.Droid\Facebook.ReactNative.WebView.Droid.csproj">
+      <Project>{bd39b68a-5dd4-4b2a-8923-2ff6c2ed6563}</Project>
+      <Name>Facebook.ReactNative.WebView.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JitsiMeet.Sdk.Droid\JitsiMeet.Sdk.Droid.csproj">
+      <Project>{42429dd1-5be5-46e1-a943-5340901a51ee}</Project>
+      <Name>JitsiMeet.Sdk.Droid</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

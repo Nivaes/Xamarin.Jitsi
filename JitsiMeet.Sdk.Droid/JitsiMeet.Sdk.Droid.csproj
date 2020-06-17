@@ -1,0 +1,57 @@
+﻿<Project Sdk="MSBuild.Sdk.Extras">
+  <PropertyGroup>
+    <TargetFramework>monoandroid90</TargetFramework>
+
+    <AssemblyName>Nivaes.Jitsi.Meet.Sdk.Droid</AssemblyName>
+    <RootNamespace>Nivaes.Jitsi.Meet.Sdk.Droid</RootNamespace>
+    <Description>Binding library of https://github.com/jitsi/jitsi-meet</Description>
+    <PackageId>Nivaes.Jitsi.Meet.Sdk.Droid</PackageId>
+    <PackageTags>xamarin;android;monodroid;jitsi</PackageTags>
+    <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
+
+    <Version>2.9.0.0</Version>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <IsBindingProject>true</IsBindingProject>
+    <OutputType>Library</OutputType>
+    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
+    <AndroidClassParser>class-parse</AndroidClassParser>
+    <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  
+ 
+  <ItemGroup>
+    <None Include="Resources\**\*.cs" />
+    <Compile Remove="Resources\**\*.cs" />
+    <AndroidResource Include="Resources\**\*.xml" Generator="MSBuild:UpdateAndroidResources" />
+    <LibraryProjectZip Include="Jars\*.aar" />
+    <EmbeddedJar Include="Jars\*.jar" />
+    <TransformFile Include="Transforms\*.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.1.0.1" />
+    <PackageReference Include="Naxam.SoLoader.Droid" Version="0.6.1.2" />
+    <!--<PackageReference Include="Xamarin.AndroidX.Fragment" Version="1.2.4.1" />
+    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4" Version="1.0.0.1" />-->
+  </ItemGroup>
+
+  <ItemGroup>
+
+    <ProjectReference Include="..\Facebook.ReactNative.Background.Timer.Jitsi.Droid\Facebook.ReactNative.Background.Timer.Jitsi.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Calendar.Events.Jitsi.Droid\Facebook.ReactNative.Calendar.Events.Jitsi.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Community.Async.Storage.Jitsi.Droid\Facebook.ReactNative.Community.Async.Storage.Jitsi.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Community.Netinfo.Jitsi.Droid\Facebook.ReactNative.Community.Netinfo.Jitsi.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Default.Preference.Jitsi.Droid\Facebook.ReactNative.Default.Preference.Jitsi.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Fast.Image.Jitsi.Droid\Facebook.ReactNative.Fast.Image.Jitsi.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Jitsi.Droid\Facebook.ReactNative.Jitsi.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Keep.Awake.Droid\Facebook.ReactNative.Keep.Awake.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.LinearGradient.Jitsi.Droid\Facebook.ReactNative.LinearGradient.Jitsi.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Svg.Droid\Facebook.ReactNative.Svg.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.WebRTC.Droid\Facebook.ReactNative.WebRTC.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.WebView.Droid\Facebook.ReactNative.WebView.Droid.csproj" />
+  </ItemGroup>
+
+</Project>

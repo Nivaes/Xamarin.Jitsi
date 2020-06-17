@@ -1,0 +1,8 @@
+﻿<metadata>
+
+    <remove-node path="/api/package[@name='com.horcrux.svg']/class[@name='RenderableView']" />
+
+    <remove-node path="/api/package[@name='org.gradle.cli']/class[@name='AbstractCommandLineConverter']" />
+    <remove-node path="/api/package[@name='org.gradle.wrapper']/class[@name='Download']" />
+    
+</metadata>

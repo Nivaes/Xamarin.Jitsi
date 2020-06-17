@@ -1,0 +1,3 @@
+﻿<metadata>
+    <remove-node path="/api/package[@name='com.BV.LinearGradient']/class[@name='LinearGradientManager']" />
+</metadata>
