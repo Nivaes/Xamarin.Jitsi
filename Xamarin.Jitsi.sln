@@ -60,6 +60,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Google
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Immersive.Droid", "Facebook.ReactNative.Immersive.Droid\Facebook.ReactNative.Immersive.Droid.csproj", "{FF7C2CCB-6936-451F-9AC5-35B0BE9FB455}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.Hermes.Droid", "Facebook.Hermes.Jitsi.Droid\Facebook.Hermes.Droid.csproj", "{5C257D97-247D-4B9E-931E-F6D5C96C6DCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -148,6 +150,10 @@ Global
 		{FF7C2CCB-6936-451F-9AC5-35B0BE9FB455}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF7C2CCB-6936-451F-9AC5-35B0BE9FB455}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF7C2CCB-6936-451F-9AC5-35B0BE9FB455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C257D97-247D-4B9E-931E-F6D5C96C6DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C257D97-247D-4B9E-931E-F6D5C96C6DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C257D97-247D-4B9E-931E-F6D5C96C6DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C257D97-247D-4B9E-931E-F6D5C96C6DCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -176,6 +182,7 @@ Global
 		{FD91F3D8-88EC-4156-83E2-FD985C0AC3D9} = {CFF52087-2C2B-46CA-9B33-5CE055037CEA}
 		{B2814224-B14C-409B-BC39-0B0279A4E2D4} = {FD91F3D8-88EC-4156-83E2-FD985C0AC3D9}
 		{FF7C2CCB-6936-451F-9AC5-35B0BE9FB455} = {FD91F3D8-88EC-4156-83E2-FD985C0AC3D9}
+		{5C257D97-247D-4B9E-931E-F6D5C96C6DCB} = {FD91F3D8-88EC-4156-83E2-FD985C0AC3D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62224AB5-FF68-4E81-A15A-A10904E9A0ED}

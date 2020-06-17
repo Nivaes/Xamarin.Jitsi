@@ -117,6 +117,10 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Facebook.Hermes.Jitsi.Droid\Facebook.Hermes.Droid.csproj">
+      <Project>{5c257d97-247d-4b9e-931e-f6d5c96c6dcb}</Project>
+      <Name>Facebook.Hermes.Droid</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Facebook.ReactNative.Background.Timer.Jitsi.Droid\Facebook.ReactNative.Background.Timer.Jitsi.Droid.csproj">
       <Project>{4a1afd30-4084-4cdf-8d59-60b701f2022b}</Project>
       <Name>Facebook.ReactNative.Background.Timer.Jitsi.Droid</Name>

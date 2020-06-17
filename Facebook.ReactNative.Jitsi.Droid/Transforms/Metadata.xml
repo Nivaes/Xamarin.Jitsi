@@ -1,6 +1,5 @@
 ﻿<metadata>
 
-    <!--<remove-node path="/api/package[@name='com.facebook.react']/class[@name='ReactActivity']" />-->
     <remove-node path="/api/package[@name='com.facebook.react']/class[@name='EagerModuleProvider']" />
     <remove-node path="/api/package[@name='com.facebook.react.modules.network']/class[@name='ForwardingCookieHandler']" />
     <remove-node path="/api/package[@name='com.facebook.react.modules.network']/interface[@name='CookieJarContainer']" />
