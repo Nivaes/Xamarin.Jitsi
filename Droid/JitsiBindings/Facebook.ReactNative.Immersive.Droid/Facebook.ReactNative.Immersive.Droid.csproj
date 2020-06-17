@@ -2,14 +2,14 @@
   <PropertyGroup>
     <TargetFramework>monoandroid90</TargetFramework>
 
-    <AssemblyName>Facebook.ReactNative.Google.Signin.Droid</AssemblyName>
-    <RootNamespace>Facebook.ReactNative.Google.Signin.Droid</RootNamespace>
+    <AssemblyName>Facebook.ReactNative.Immersive.Droid</AssemblyName>
+    <RootNamespace>Facebook.ReactNative.Immersive.Droid</RootNamespace>
     <Description>Binding library of https://github.com/jitsi/jitsi-meet</Description>
-    <PackageId>Nivaes.Facebook.ReactNative.Google.Signin.Droid</PackageId>
-    <PackageTags>xamarin;android;monodroid;facebook;react;google;signin</PackageTags>
+    <PackageId>Nivaes.Facebook.ReactNative.Immersive.Droid</PackageId>
+    <PackageTags>xamarin;android;monodroid;facebook;react;immersive</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
-    <Version>3.0.1.0</Version>
+    <Version>2.0.0.0</Version>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -39,6 +39,7 @@
   </ItemGroup>
   
   <ItemGroup>
+    <ProjectReference Include="..\Facebook.ReactNative.Droid\Facebook.ReactNative.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Jitsi.Droid\Facebook.ReactNative.Droid.csproj" />
   </ItemGroup>
 
