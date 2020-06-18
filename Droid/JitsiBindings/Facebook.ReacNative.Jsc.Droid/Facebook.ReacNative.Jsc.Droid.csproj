@@ -1,15 +1,15 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras">
   <PropertyGroup>
     <TargetFramework>monoandroid90</TargetFramework>
-
-    <AssemblyName>Facebook.ReactNative.Keep.Awake.Droid</AssemblyName>
-    <RootNamespace>Facebook.ReactNative.Keep.Awake.Droid</RootNamespace>
-    <Description>Binding library of https://github.com/jitsi/jitsi-meet</Description>
-    <PackageId>Nivaes.Facebook.ReactNative.Keep.Awake.Droid</PackageId>
-    <PackageTags>xamarin;android;monodroid;facebook;react;LinearGradient</PackageTags>
+    
+    <AssemblyName>Facebook.ReacNative.Jsc.Droid</AssemblyName>
+    <RootNamespace>Facebook.ReacNative.Jsc.Droid</RootNamespace>
+    <Description>Binding library of https://github.com/react-native-community/jsc-android-buildscripts</Description>
+    <PackageId>Nivaes.Jitsi.Facebook.ReacNative.Jsc.Droid</PackageId>
+    <PackageTags>xamarin;android;monodroid;facebook;jsc</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
-    <Version>4.0.0.0</Version>
+    <Version>0.58.0.0</Version>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -19,10 +19,6 @@
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
-  </PropertyGroup>
-
-  <PropertyGroup>
-    <AndroidUseManagedDesignTimeResourceGenerator>False</AndroidUseManagedDesignTimeResourceGenerator>
   </PropertyGroup>
   
   <ItemGroup>
@@ -35,7 +31,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\Facebook.ReactNative.Droid\Facebook.ReactNative.Droid.csproj" />
+    <Folder Include="Jars\" />
   </ItemGroup>
-  
+
 </Project>
