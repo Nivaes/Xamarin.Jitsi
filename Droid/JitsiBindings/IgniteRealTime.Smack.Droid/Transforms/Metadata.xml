@@ -1,3 +1,22 @@
 ﻿<metadata>
+    
+    <remove-node path="/api/package[@name='org.igniterealtime.smack.inttest.util']" />
+    
+    <remove-node path="/api/package[@name='org.jivesoftware.smack']" />
+    <remove-node path="/api/package[@name='org.jivesoftware.smack.packet']" />
+    <remove-node path="/api/package[@name='org.jivesoftware.smack.sasl.core']" />
+    <remove-node path="/api/package[@name='org.jivesoftware.smack.sasl.javax']" />
+    <remove-node path="/api/package[@name='org.jivesoftware.smack.util']" />
+    <remove-node path="/api/package[@name='org.jivesoftware.smack.sasl.provided']" />
+    <remove-node path="/api/package[@name='org.jivesoftware.smack.sasl.core']" />
+    <remove-node path="/api/package[@name='org.jivesoftware.smack.util.dns']" />
+
+    <remove-node path="/api/package[@name='org.jivesoftware.smackx.amp']" />
+    <remove-node path="/api/package[@name='org.jivesoftware.smackx.jingleold.nat']" />
+    <remove-node path="/api/package[@name='org.jivesoftware.smackx.bookmarks']" />
+    <remove-node path="/api/package[@name='org.jivesoftware.smackx.bytestreams.ibb']" />
+    <remove-node path="/api/package[@name='org.jivesoftware.smackx.iqprivate.packet']" />
+    <remove-node path="/api/package[@name='org.jivesoftware.smackx.bytestreams.socks5']" />
+    <remove-node path="/api/package[@name='org.jivesoftware.smackx.muc.packet']" />
 
 </metadata>

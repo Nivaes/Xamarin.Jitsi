@@ -1,19 +1,30 @@
 ﻿<metadata>
 
-    <remove-node path="/api/package[@name='org.bouncycastle.crypto.tls']/class[@name='TlsProtocol']" />
-    <remove-node path="/api/package[@name='org.bouncycastle.crypto.tls']/class[@name='TlsServerProtocol']" />
-    <remove-node path="/api/package[@name='org.bouncycastle.asn1.cms.ecc']/class[@name='MQVuserKeyingMaterial']" />
-    <remove-node path="/api/package[@name='org.bouncycastle.asn1.cms']/class[@name='RecipientIdentifier']" />
-    <remove-node path="/api/package[@name='org.bouncycastle.asn1.cms']/class[@name='RecipientInfo']" />
-    <remove-node path="/api/package[@name='org.bouncycastle.asn1.cms']/class[@name='RecipientKeyIdentifier']" />
-    <remove-node path="/api/package[@name='org.bouncycastle.asn1.cms']/class[@name='SCVPReqRes']" />
-    <remove-node path="/api/package[@name='org.bouncycastle.asn1.cms']/class[@name='SignedDataParser']"/>
-    <remove-node path="/api/package[@name='org.bouncycastle.asn1.pkcs']/class[@name='AuthenticatedSafe']" />
-    <remove-node path="/api/package[@name='org.bouncycastle.asn1.teletrust']/interface[@name='TeleTrusTObjectIdentifiers']/field[@name='brainpoolP160r1']" />
-    <remove-node path="/api/package[@name='org.bouncycastle.asn1.x9']/interface[@name='X9ObjectIdentifiers']/field[@name='ansi_X9_42']" />
-    <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.x509']/class[@name='X509CRLEntryObject']" />
-    <remove-node path="/api/package[@name='org.bouncycastle.asn1.x9']/interface[@name='X9ObjectIdentifiers']/field[@name='ansi_X9_62']" />
-    <remove-node path="/api/package[@name='org.bouncycastle.asn1.x9']/interface[@name='X9ObjectIdentifiers']/field[@name='c2onb191v4']" />
-    <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.x509']/class[@name='X509CRLEntryObject']" />
+    <remove-node path="/api/package[@name='org.bouncycastle.jce.provider']" />
+
+    <remove-node path="/api/package[@name='org.bouncycastle.pqc.jcajce.provider.rainbow']" />
+    <remove-node path="/api/package[@name='org.bouncycastle.pqc.jcajce.provider.util']" />
+    <remove-node path="/api/package[@name='org.bouncycastle.pqc.jcajce.provider.mceliece']" />
     
+    <remove-node path="/api/package[@name='org.bouncycastle.x509']" />
+    
+    <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.symmetric.util']" />
+    <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric']" />
+    <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.x509']" />   
+    <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.gost']" />
+    <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.ies']" />
+    <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.rsa']" />
+    <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.dh']" />
+    <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.dsa']" />
+    <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.ec']" />
+    <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.util']" />
+    <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.keystore.bc']" />
+    <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.digest']" />
+    
+    <remove-node path="/api/package[@name='org.bouncycastle.crypto']" />
+    <remove-node path="/api/package[@name='org.bouncycastle.crypto.tls']" />
+    <remove-node path="/api/package[@name='org.bouncycastle.crypto.modes']" />
+
+    
+
 </metadata>

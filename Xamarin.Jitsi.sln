@@ -62,6 +62,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Droid"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JitsiBindings", "JitsiBindings", "{7D2A5366-9BB2-42FD-BE7E-BFF6DD79199F}"
 	ProjectSection(SolutionItems) = preProject
+		Droid\JitsiBindings\.editorconfig = Droid\JitsiBindings\.editorconfig
 		Droid\JitsiMeet.Droid.Sample\Directory.build.props = Droid\JitsiMeet.Droid.Sample\Directory.build.props
 	EndProjectSection
 EndProject
@@ -74,6 +75,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IgniteRealTime.Smack.Droid", "Droid\JitsiBindings\IgniteRealTime.Smack.Droid\IgniteRealTime.Smack.Droid.csproj", "{DAF18DE2-944A-4BDD-B161-414CE595B8CA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoundcyCastle.BcpProv.Droid", "Droid\JitsiBindings\BoundcyCastle.BcpProv.Droid\BoundcyCastle.BcpProv.Droid.csproj", "{A6D3D9C0-A75E-449D-ADD6-91D8EC5FD489}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jitsi.Droid", "Droid\JitsiBindings\Jitsi.Droid\Jitsi.Droid.csproj", "{99409AA8-90C5-475E-BDE2-DB497390505C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +186,10 @@ Global
 		{A6D3D9C0-A75E-449D-ADD6-91D8EC5FD489}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6D3D9C0-A75E-449D-ADD6-91D8EC5FD489}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6D3D9C0-A75E-449D-ADD6-91D8EC5FD489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99409AA8-90C5-475E-BDE2-DB497390505C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99409AA8-90C5-475E-BDE2-DB497390505C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99409AA8-90C5-475E-BDE2-DB497390505C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99409AA8-90C5-475E-BDE2-DB497390505C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -217,6 +224,7 @@ Global
 		{03967E60-B843-4682-AF79-80A12D2E85C1} = {FAA641F2-338C-4F39-98B5-0628BEA73481}
 		{DAF18DE2-944A-4BDD-B161-414CE595B8CA} = {7D2A5366-9BB2-42FD-BE7E-BFF6DD79199F}
 		{A6D3D9C0-A75E-449D-ADD6-91D8EC5FD489} = {7D2A5366-9BB2-42FD-BE7E-BFF6DD79199F}
+		{99409AA8-90C5-475E-BDE2-DB497390505C} = {7D2A5366-9BB2-42FD-BE7E-BFF6DD79199F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62224AB5-FF68-4E81-A15A-A10904E9A0ED}

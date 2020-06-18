@@ -1,0 +1,44 @@
+﻿<metadata>
+
+    <remove-node path="/api/package[@name='org.ice4j.ice']" />
+
+    <remove-node path="/api/package[@name='org.jitsi.rest']" />
+    <remove-node path="/api/package[@name='org.jitsi.config']" />
+    <remove-node path="/api/package[@name='org.jitsi.nlj.transform.node']" />
+    <remove-node path="/api/package[@name='org.jitsi.nlj.transform.node.incoming']" />
+    <remove-node path="/api/package[@name='org.jitsi.nlj.srtp']" />
+    <remove-node path="/api/package[@name='org.jitsi.nlj.rtp']" />
+    <remove-node path="/api/package[@name='org.jitsi.nlj.dtls']" />
+    <remove-node path="/api/package[@name='org.jitsi.rtp']" />
+    <remove-node path="/api/package[@name='org.jitsi.rtp.rtcp']" />
+    <remove-node path="/api/package[@name='org.jitsi.rtp.rtcp.rtcpfb']" />
+    <remove-node path="/api/package[@name='org.jitsi.rtp.rtp']" />
+    <remove-node path="/api/package[@name='org.jitsi.util']" />
+    <remove-node path="/api/package[@name='org.jitsi.util.function']" />
+    <remove-node path="/api/package[@name='org.jitsi.utils.version']" />
+    <remove-node path="/api/package[@name='org.jitsi.impl.neomedia']" />
+    <remove-node path="/api/package[@name='org.jitsi.impl.neomedia.codec']" />
+    <remove-node path="/api/package[@name='org.jitsi.impl.neomedia.transform']" />
+    <remove-node path="/api/package[@name='org.jitsi.impl.neomedia.transform.sdes']" />
+    <remove-node path="/api/package[@name='org.jitsi.impl.neomedia.stats']" />
+    <remove-node path="/api/package[@name='org.jitsi.impl.neomedia.rtcp']" />
+    <remove-node path="/api/package[@name='org.jitsi.impl.neomedia.transform.fec']" />
+    <remove-node path="/api/package[@name='org.jitsi.impl.neomedia.rtp.sendsidebandwidthestimation']" />
+    <remove-node path="/api/package[@name='org.jitsi.jigasi']" />
+    <remove-node path="/api/package[@name='org.jitsi.jigasi.transcription']" />
+    <remove-node path="/api/package[@name='org.jitsi.nlj.srtp']" />
+    <remove-node path="/api/package[@name='org.jitsi.nlj.util']" />
+    <remove-node path="/api/package[@name='org.jitsi.videobridge.osgi']" />
+    <remove-node path="/api/package[@name='org.jitsi.videobridge.ice']" />
+    <remove-node path="/api/package[@name='org.jitsi.videobridge.octo']" />
+    <remove-node path="/api/package[@name='org.jitsi.videobridge.octo.config']" />
+    <remove-node path="/api/package[@name='org.jitsi.videobridge.signaling.api']" />
+    <remove-node path="/api/package[@name='org.jitsi.videobridge.websocket.config']" />
+    <remove-node path="/api/package[@name='org.jitsi.service.neomedia']" />
+
+    <remove-node path="/api/package[@name='net.java.sip.communicator.impl.protocol.sip']" />
+    <remove-node path="/api/package[@name='net.java.sip.communicator.impl.protocol.sip.net']" />
+    <remove-node path="/api/package[@name='net.java.sip.communicator.impl.protocol.jabber']" />
+    <remove-node path="/api/package[@name='net.java.sip.communicator.service.protocol']" />   
+
+</metadata>

@@ -117,9 +117,17 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\JitsiBindings\BoundcyCastle.BcpProv.Droid\BoundcyCastle.BcpProv.Droid.csproj">
+      <Project>{a6d3d9c0-a75e-449d-add6-91d8ec5fd489}</Project>
+      <Name>BoundcyCastle.BcpProv.Droid</Name>
+    </ProjectReference>
     <ProjectReference Include="..\JitsiBindings\Facebook.Hermes.Droid\Facebook.Hermes.Droid.csproj">
       <Project>{5c257d97-247d-4b9e-931e-f6d5c96c6dcb}</Project>
       <Name>Facebook.Hermes.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JitsiBindings\Facebook.ReacNative.Jsc.Droid\Facebook.ReacNative.Jsc.Droid.csproj">
+      <Project>{e0bf235b-e037-4441-b990-e562b27b47c3}</Project>
+      <Name>Facebook.ReacNative.Jsc.Droid</Name>
     </ProjectReference>
     <ProjectReference Include="..\JitsiBindings\Facebook.ReactNative.Background.Timer.Droid\Facebook.ReactNative.Background.Timer.Droid.csproj">
       <Project>{4a1afd30-4084-4cdf-8d59-60b701f2022b}</Project>
@@ -192,6 +200,10 @@
     <ProjectReference Include="..\JitsiBindings\Facebook.ReactNative.WebView.Droid\Facebook.ReactNative.WebView.Droid.csproj">
       <Project>{bd39b68a-5dd4-4b2a-8923-2ff6c2ed6563}</Project>
       <Name>Facebook.ReactNative.WebView.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JitsiBindings\IgniteRealTime.Smack.Droid\IgniteRealTime.Smack.Droid.csproj">
+      <Project>{daf18de2-944a-4bdd-b161-414ce595b8ca}</Project>
+      <Name>IgniteRealTime.Smack.Droid</Name>
     </ProjectReference>
     <ProjectReference Include="..\JitsiBindings\JitsiMeet.Sdk.Droid\JitsiMeet.Sdk.Droid.csproj">
       <Project>{42429dd1-5be5-46e1-a943-5340901a51ee}</Project>
