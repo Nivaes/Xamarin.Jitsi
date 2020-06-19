@@ -30,8 +30,23 @@
     <Compile Remove="Resources\**\*.cs" />
     <AndroidResource Include="Resources\**\*.xml" Generator="MSBuild:UpdateAndroidResources" />
     <LibraryProjectZip Include="Jars\*.aar" />
-    <EmbeddedJar Include="Jars\*.jar" />
+    <EmbeddedJar Include="Jars\Embedded\*.jar" />
+    
+    
+    <!--<InputJar Include="Jars\Reference\*.jar" />-->
+    <ReferenceJar Include="Jars\Reference\*.jar" />
+    <!--<EmbeddedReferenceJar Include="Jars\Reference\*.jar" />-->
     <TransformFile Include="Transforms\*.xml" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Jars\Reference\" />
+  </ItemGroup>
+
+  <!--<ItemGroup>
+    <PackageReference Include="Naxam.Jakewharton.Timber" Version="4.7.1" />
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.1.0.1" />
+    <PackageReference Include="Naxam.SoLoader.Droid" Version="0.6.1.2" />
+  </ItemGroup>-->
 
 </Project>
