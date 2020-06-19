@@ -62,7 +62,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Droid"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JitsiBindings", "JitsiBindings", "{7D2A5366-9BB2-42FD-BE7E-BFF6DD79199F}"
 	ProjectSection(SolutionItems) = preProject
-		Droid\JitsiBindings\.editorconfig = Droid\JitsiBindings\.editorconfig
 		Droid\JitsiMeet.Droid.Sample\Directory.build.props = Droid\JitsiMeet.Droid.Sample\Directory.build.props
 	EndProjectSection
 EndProject
