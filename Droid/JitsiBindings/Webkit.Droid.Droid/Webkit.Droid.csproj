@@ -2,10 +2,10 @@
   <PropertyGroup>
     <TargetFramework>monoandroid90</TargetFramework>
     
-    <AssemblyName>Facebook.ReacNative.Jsc.Droid</AssemblyName>
-    <RootNamespace>Facebook.ReacNative.Jsc.Droid</RootNamespace>
+    <AssemblyName>Facebook.Webkit.Droid</AssemblyName>
+    <RootNamespace>Facebook.Webkit.Droid</RootNamespace>
     <Description>Binding library of https://github.com/react-native-community/jsc-android-buildscripts</Description>
-    <PackageId>Nivaes.Jitsi.Facebook.ReacNative.Jsc.Droid</PackageId>
+    <PackageId>Nivaes.Jitsi.Webkit.Droid</PackageId>
     <PackageTags>xamarin;android;monodroid;facebook;jsc</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 

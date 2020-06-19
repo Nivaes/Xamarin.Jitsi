@@ -46,7 +46,7 @@
 
     <ProjectReference Include="..\Facebook.Hermes.Droid\Facebook.Hermes.Droid.csproj" />
 
-    <ProjectReference Include="..\Facebook.ReacNative.Jsc.Droid\Facebook.ReacNative.Jsc.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReacNative.Jsc.Droid\Webkit.Droid.csproj" />
 
     <ProjectReference Include="..\Facebook.ReactNative.Background.Timer.Droid\Facebook.ReactNative.Background.Timer.Droid.csproj" />
 
@@ -68,6 +68,7 @@
     <ProjectReference Include="..\Facebook.ReactNative.WebRTC.Droid\Facebook.ReactNative.WebRTC.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.WebView.Droid\Facebook.ReactNative.WebView.Droid.csproj" />
     <ProjectReference Include="..\IgniteRealTime.Smack.Droid\IgniteRealTime.Smack.Droid.csproj" />
+    <ProjectReference Include="..\Webkit.Droid.Droid\Webkit.Droid.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -11,4 +11,6 @@
 
     <remove-node path="/api/package[@name='org.freedesktop.dbus']" />
 
+    <remove-node path="/api/package[@name='org.jitsi_modified.sctp4j']" />
+
 </metadata>
