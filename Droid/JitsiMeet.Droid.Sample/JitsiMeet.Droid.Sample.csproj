@@ -125,10 +125,6 @@
       <Project>{5c257d97-247d-4b9e-931e-f6d5c96c6dcb}</Project>
       <Name>Facebook.Hermes.Droid</Name>
     </ProjectReference>
-    <ProjectReference Include="..\JitsiBindings\Facebook.ReacNative.Jsc.Droid\Facebook.ReacNative.Jsc.Droid.csproj">
-      <Project>{e0bf235b-e037-4441-b990-e562b27b47c3}</Project>
-      <Name>Facebook.ReacNative.Jsc.Droid</Name>
-    </ProjectReference>
     <ProjectReference Include="..\JitsiBindings\Facebook.ReactNative.Background.Timer.Droid\Facebook.ReactNative.Background.Timer.Droid.csproj">
       <Project>{4a1afd30-4084-4cdf-8d59-60b701f2022b}</Project>
       <Name>Facebook.ReactNative.Background.Timer.Droid</Name>
@@ -205,9 +201,17 @@
       <Project>{daf18de2-944a-4bdd-b161-414ce595b8ca}</Project>
       <Name>IgniteRealTime.Smack.Droid</Name>
     </ProjectReference>
+    <ProjectReference Include="..\JitsiBindings\Jitsi.Droid\Jitsi.Droid.csproj">
+      <Project>{99409aa8-90c5-475e-bde2-db497390505c}</Project>
+      <Name>Jitsi.Droid</Name>
+    </ProjectReference>
     <ProjectReference Include="..\JitsiBindings\JitsiMeet.Sdk.Droid\JitsiMeet.Sdk.Droid.csproj">
       <Project>{42429dd1-5be5-46e1-a943-5340901a51ee}</Project>
       <Name>JitsiMeet.Sdk.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JitsiBindings\Webkit.Droid.Droid\Webkit.Droid.csproj">
+      <Project>{4d6f9449-5643-491c-b24e-e472adf974bf}</Project>
+      <Name>Webkit.Droid</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
