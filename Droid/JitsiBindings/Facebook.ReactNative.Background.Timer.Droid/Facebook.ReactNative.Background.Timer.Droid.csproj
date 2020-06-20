@@ -15,16 +15,16 @@
   <PropertyGroup>
     <IsBindingProject>true</IsBindingProject>
     <OutputType>Library</OutputType>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
+    <!--<AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>-->
     <AndroidClassParser>class-parse</AndroidClassParser>
-    <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
-    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <!--<AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>-->
   </PropertyGroup>
 
   <PropertyGroup>
     <AndroidUseManagedDesignTimeResourceGenerator>False</AndroidUseManagedDesignTimeResourceGenerator>
   </PropertyGroup>
-  
+
   <ItemGroup>
     <None Include="Resources\**\*.cs" />
     <Compile Remove="Resources\**\*.cs" />

@@ -23,8 +23,8 @@
     <GenerateDocumentationFile Condition=" '$(Configuration)' == 'Release' ">true</GenerateDocumentationFile>
     <GeneratePackageOnBuild Condition=" '$(Configuration)' == 'Release' and '$(IsTestProject)' != 'true'">true</GeneratePackageOnBuild>
 
-    <Platform>AnyCPU</Platform>
-    <DebugType>full</DebugType>
+    <!--<Platform>AnyCPU</Platform>-->
+    <!--<DebugType>full</DebugType>-->
     <IsTestProject>$(MSBuildProjectName.Contains('UnitTest'))</IsTestProject>
   </PropertyGroup>
   
