@@ -202,10 +202,6 @@
       <Project>{daf18de2-944a-4bdd-b161-414ce595b8ca}</Project>
       <Name>IgniteRealTime.Smack.Droid</Name>
     </ProjectReference>
-    <ProjectReference Include="..\JitsiBindings\Jitsi.Droid\Jitsi.Droid.csproj">
-      <Project>{99409aa8-90c5-475e-bde2-db497390505c}</Project>
-      <Name>Jitsi.Droid</Name>
-    </ProjectReference>
     <ProjectReference Include="..\JitsiBindings\JitsiMeet.Sdk.Droid\JitsiMeet.Sdk.Droid.csproj">
       <Project>{42429dd1-5be5-46e1-a943-5340901a51ee}</Project>
       <Name>JitsiMeet.Sdk.Droid</Name>
