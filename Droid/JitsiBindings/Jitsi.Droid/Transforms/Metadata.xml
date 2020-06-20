@@ -34,6 +34,7 @@
     <remove-node path="/api/package[@name='org.jitsi.videobridge.octo.config']" />
     <remove-node path="/api/package[@name='org.jitsi.videobridge.signaling.api']" />
     <remove-node path="/api/package[@name='org.jitsi.videobridge.websocket.config']" />
+    <remove-node path="/api/package[@name='org.jitsi.videobridge.util']" />
     <remove-node path="/api/package[@name='org.jitsi.service.neomedia']" />
 
     <remove-node path="/api/package[@name='org.jitsi.impl.neomedia.quicktime']" />

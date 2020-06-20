@@ -31,7 +31,7 @@
     <AndroidResource Include="Resources\**\*.xml" Generator="MSBuild:UpdateAndroidResources" />
     <LibraryProjectZip Include="Jars\*.aar" />
     <EmbeddedJar Include="Jars\Embedded\*.jar" />
-    <ReferenceJar Include="Jars\Reference\*.jar" />
+    <EmbeddedReferenceJar Include="Jars\Reference\*.jar" />
     <TransformFile Include="Transforms\*.xml" />
   </ItemGroup>
  

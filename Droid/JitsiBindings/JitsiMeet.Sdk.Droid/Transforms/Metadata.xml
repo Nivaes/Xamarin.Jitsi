@@ -6,7 +6,6 @@
     <remove-node path="/api/package[@name='com.groupon.seleniumgridextras.utilities.json']" />
 
     <remove-node path="/api/package[@name='com.groupon.seleniumgridextras']" />
-    <remove-node path="/api/package[@name='com.groupon.seleniumgridextras.utilities.threads']" />
     <remove-node path="/api/package[@name='com.groupon.seleniumgridextras.videorecording']" />
 
     <remove-node path="/api/package[@name='org.freedesktop.dbus']" />
