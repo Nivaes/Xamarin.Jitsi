@@ -33,9 +33,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Naxam.Fresco.Droid" Version="1.5.0" />
+    <PackageReference Include="Naxam.FrescoCore.Droid" Version="1.5.0" />
+    <PackageReference Include="Naxam.FrescoDrawee.Droid" Version="1.5.0" />
+    <PackageReference Include="Naxam.FrescoImagePipeline.Droid" Version="1.5.0" />
+    <PackageReference Include="Naxam.FrescoImagePipelineBase.Droid" Version="1.5.0" />
     <PackageReference Include="Naxam.Jakewharton.Timber" Version="4.7.1" />
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.1.0.1" />
     <PackageReference Include="Naxam.SoLoader.Droid" Version="0.6.1.2" />
+    <PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.2.0.1" />
+    <PackageReference Include="Xamarin.GooglePlayServices.Plus" Version="71.1600.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -43,8 +50,6 @@
     <ProjectReference Include="..\BoundcyCastle.BcpProv.Droid\BoundcyCastle.BcpProv.Droid.csproj" />
 
     <ProjectReference Include="..\DropBox.Core.Sdk.Droid\DropBox.Core.Sdk.Droid.csproj" />
-
-    <ProjectReference Include="..\Facebook.Fresco.Droid\Facebook.Fresco.Droid.csproj" />
     <ProjectReference Include="..\Facebook.Hermes.Droid\Facebook.Hermes.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Background.Timer.Droid\Facebook.ReactNative.Background.Timer.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Calendar.Events.Droid\Facebook.ReactNative.Calendar.Events.Droid.csproj" />

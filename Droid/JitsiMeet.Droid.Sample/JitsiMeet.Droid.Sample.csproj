@@ -116,6 +116,9 @@
     <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4">
       <Version>1.0.0.1</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData">
+      <Version>2.2.0.1</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JitsiBindings\BoundcyCastle.BcpProv.Droid\BoundcyCastle.BcpProv.Droid.csproj">
@@ -125,10 +128,6 @@
     <ProjectReference Include="..\JitsiBindings\DropBox.Core.Sdk.Droid\DropBox.Core.Sdk.Droid.csproj">
       <Project>{98d862b4-92e6-4802-aa3a-5075517a824b}</Project>
       <Name>DropBox.Core.Sdk.Droid</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\JitsiBindings\Facebook.Fresco.Droid\Facebook.Fresco.Droid.csproj">
-      <Project>{45302493-09e2-4f5c-9e3a-38f74c378c1d}</Project>
-      <Name>Facebook.Fresco.Droid</Name>
     </ProjectReference>
     <ProjectReference Include="..\JitsiBindings\Facebook.Hermes.Droid\Facebook.Hermes.Droid.csproj">
       <Project>{5c257d97-247d-4b9e-931e-f6d5c96c6dcb}</Project>

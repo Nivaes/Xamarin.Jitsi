@@ -32,8 +32,4 @@
     <TransformFile Include="Transforms\*.xml" />
   </ItemGroup>
   
-  <ItemGroup>
-    <ProjectReference Include="..\Facebook.Fresco.Droid\Facebook.Fresco.Droid.csproj" />
-  </ItemGroup>
- 
 </Project>
