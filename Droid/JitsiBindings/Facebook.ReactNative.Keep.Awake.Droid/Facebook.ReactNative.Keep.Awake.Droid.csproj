@@ -1,6 +1,6 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras">
   <PropertyGroup>
-    <TargetFramework>monoandroid90</TargetFramework>
+    <TargetFrameworks>monoandroid90;monoandroid10.0</TargetFrameworks>
 
     <AssemblyName>Facebook.ReactNative.Keep.Awake.Droid</AssemblyName>
     <RootNamespace>Facebook.ReactNative.Keep.Awake.Droid</RootNamespace>

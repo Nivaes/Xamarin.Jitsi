@@ -1,6 +1,6 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras">
   <PropertyGroup>
-    <TargetFramework>monoandroid90</TargetFramework>
+     <TargetFrameworks>monoandroid90;monoandroid10.0</TargetFrameworks>
     
     <AssemblyName>BoundcyCastle.BcpProv.Droid</AssemblyName>
     <RootNamespace>BoundcyCastle.BcpProv.Droid</RootNamespace>

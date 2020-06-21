@@ -1,6 +1,6 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras">
   <PropertyGroup>
-    <TargetFramework>monoandroid90</TargetFramework>
+    <TargetFrameworks>monoandroid90;monoandroid10.0</TargetFrameworks>
 
     <AssemblyName>Jitsi.Meet.Sdk.Droid</AssemblyName>
     <RootNamespace>Jitsi.Meet.Sdk.Droid</RootNamespace>
@@ -43,6 +43,8 @@
   <ItemGroup>
 
     <ProjectReference Include="..\BoundcyCastle.BcpProv.Droid\BoundcyCastle.BcpProv.Droid.csproj" />
+
+    <ProjectReference Include="..\Facebook.Fresco.Droid\Facebook.Fresco.Droid.csproj" />
     <ProjectReference Include="..\Facebook.Hermes.Droid\Facebook.Hermes.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Background.Timer.Droid\Facebook.ReactNative.Background.Timer.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Calendar.Events.Droid\Facebook.ReactNative.Calendar.Events.Droid.csproj" />

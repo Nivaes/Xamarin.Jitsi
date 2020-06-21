@@ -1,6 +1,6 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras">
   <PropertyGroup>
-    <TargetFramework>monoandroid90</TargetFramework>
+    <TargetFrameworks>monoandroid90;monoandroid10.0</TargetFrameworks>
     
     <AssemblyName>Facebook.ReactNative.Droid</AssemblyName>
     <RootNamespace>Facebook.ReactNative.Droid</RootNamespace>
@@ -32,6 +32,10 @@
     <LibraryProjectZip Include="Jars\*.aar" />
     <EmbeddedJar Include="Jars\*.jar" />
     <TransformFile Include="Transforms\*.xml" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Xamarin.JavaX.Inject" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras">
   <PropertyGroup>
-    <TargetFramework>monoandroid90</TargetFramework>
+    <TargetFrameworks>monoandroid90;monoandroid10.0</TargetFrameworks>
     
     <AssemblyName>IgniteRealTime.Smack.Droid</AssemblyName>
     <RootNamespace>IgniteRealTime.Smack.Droid</RootNamespace>

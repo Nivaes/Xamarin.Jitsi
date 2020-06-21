@@ -1,6 +1,6 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras">
   <PropertyGroup>
-    <TargetFramework>monoandroid90</TargetFramework>
+     <TargetFrameworks>monoandroid90;monoandroid10.0</TargetFrameworks>
 
     <AssemblyName>Facebook.React.Native.Community.Netinfo.Jitsi.Droid</AssemblyName>
     <RootNamespace>Facebook.React.Native.Community.Netinfo.Jitsi.Droid</RootNamespace>

@@ -1,6 +1,6 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras">
   <PropertyGroup>
-    <TargetFramework>monoandroid90</TargetFramework>
+    <TargetFrameworks>monoandroid90;monoandroid10.0</TargetFrameworks>
     
     <AssemblyName>Jitsi.Droid</AssemblyName>
     <RootNamespace>Jitsi.Droid</RootNamespace>
@@ -33,6 +33,10 @@
     <EmbeddedJar Include="Jars\Embedded\*.jar" />
     <EmbeddedReferenceJar Include="Jars\Reference\*.jar" />
     <TransformFile Include="Transforms\*.xml" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Facebook.Fresco.Droid\Facebook.Fresco.Droid.csproj" />
   </ItemGroup>
  
 </Project>
