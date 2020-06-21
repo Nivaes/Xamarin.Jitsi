@@ -2,5 +2,9 @@
     
     <remove-node path="/api/package[@name='com.facebook.imagepipeline.memory']" />
     <remove-node path="/api/package[@name='com.facebook.imagepipeline.producers']" />
+    <remove-node path="/api/package[@name='com.facebook.imagepipeline.decoder']" />
+    <remove-node path="/api/package[@name='com.facebook.imagepipeline.platform']" />
+    <remove-node path="/api/package[@name='com.facebook.imagepipeline.cache']" />
+    <remove-node path="/api/package[@name='com.facebook.imagepipeline.debug']" />
 
 </metadata>

@@ -2,11 +2,11 @@
   <PropertyGroup>
     <TargetFrameworks>monoandroid90;monoandroid10.0</TargetFrameworks>
     
-    <AssemblyName>Facebook.Fresco.Image.Pipeline.Droid</AssemblyName>
-    <RootNamespace>Facebook.Fresco.Image.Pipeline.Droid</RootNamespace>
+    <AssemblyName>Facebook.Fresco.Image.Pipeline.OkHttp3.Droid</AssemblyName>
+    <RootNamespace>Facebook.Fresco.Image.Pipeline.OkHttp3.Droid</RootNamespace>
     <Description>Binding library of https://github.com/facebook/fresco</Description>
-    <PackageId>Nivaes.Facebook.Fresco.Droid.Droid</PackageId>
-    <PackageTags>xamarin;android;monodroid;facebook;Fresco;image;pipeline</PackageTags>
+    <PackageId>Nivaes.Facebook.Fresco.Image.Pipeline.OkHttp3.Droid</PackageId>
+    <PackageTags>xamarin;android;monodroid;facebook;Fresco;image;pipeline;okhttp3</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
     <Version>2.0.0.0</Version>
@@ -30,13 +30,9 @@
     <EmbeddedJar Include="Jars\*.jar" />
     <TransformFile Include="Transforms\*.xml" />
   </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Bolts" Version="1.4.0.1" />
-  </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\Facebook.Fresco.Imape.Pipeline.Base.Droid\Facebook.Fresco.Image.Pipeline.Base.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.Fresco.Core.Droid\Facebook.Fresco.Core.Droid.csproj" />
   </ItemGroup>
 
 </Project>

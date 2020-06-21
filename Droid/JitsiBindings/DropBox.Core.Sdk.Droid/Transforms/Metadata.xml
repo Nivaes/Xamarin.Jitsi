@@ -1,10 +1,14 @@
 ﻿<metadata>
 
     <remove-node path="/api/package[@name='com.dropbox.core.util']" />
-    
+
+    <remove-node path="/api/package[@name='com.dropbox.core.v1']" />
     <remove-node path="/api/package[@name='com.dropbox.core.v2.teamlog']" />
     <remove-node path="/api/package[@name='com.dropbox.core.v2.files']" />
     <remove-node path="/api/package[@name='com.dropbox.core.v2.paper']" />
     <remove-node path="/api/package[@name='com.dropbox.core.v2.clouddocs']" />
+    <remove-node path="/api/package[@name='com.dropbox.core.v2.account']" />
+    <remove-node path="/api/package[@name='com.dropbox.core.v2.async']" />
+    <remove-node path="/api/package[@name='com.dropbox.core.v2.auth']" />
 
 </metadata>

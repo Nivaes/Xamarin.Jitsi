@@ -137,6 +137,10 @@
       <Project>{2c4fe9b1-ec2a-4961-abac-4ebf093b9232}</Project>
       <Name>Facebook.Fresco.Image.Pipeline.Droid</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Bindings\Facebook.Fresco.Image.Pipeline.OkHttp3.Droid\Facebook.Fresco.Image.Pipeline.OkHttp3.Droid.csproj">
+      <Project>{60a3bc27-8e09-415a-b36c-f4cbe5e4f57b}</Project>
+      <Name>Facebook.Fresco.Image.Pipeline.OkHttp3.Droid</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Bindings\Facebook.Fresco.Imape.Pipeline.Base.Droid\Facebook.Fresco.Image.Pipeline.Base.Droid.csproj">
       <Project>{a65e9c1f-4450-42f1-b9b8-8db583cbf080}</Project>
       <Name>Facebook.Fresco.Image.Pipeline.Base.Droid</Name>

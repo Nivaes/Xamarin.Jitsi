@@ -50,6 +50,8 @@
 
     <ProjectReference Include="..\..\Bindings\Facebook.Fresco.Image.Pipeline.Droid\Facebook.Fresco.Image.Pipeline.Droid.csproj" />
 
+    <ProjectReference Include="..\..\Bindings\Facebook.Fresco.Image.Pipeline.OkHttp3.Droid\Facebook.Fresco.Image.Pipeline.OkHttp3.Droid.csproj" />
+
     <ProjectReference Include="..\..\Bindings\Facebook.Fresco.Imape.Pipeline.Base.Droid\Facebook.Fresco.Image.Pipeline.Base.Droid.csproj" />
 
     <ProjectReference Include="..\BoundcyCastle.BcpProv.Droid\BoundcyCastle.BcpProv.Droid.csproj" />
