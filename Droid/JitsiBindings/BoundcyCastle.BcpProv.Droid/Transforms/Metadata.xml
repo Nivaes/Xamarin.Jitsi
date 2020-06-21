@@ -23,7 +23,8 @@
     <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.asymmetric.dstu']" />
     <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.keystore.bc']" />
     <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.digest']" />
-    
+    <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.util']" />
+
     <remove-node path="/api/package[@name='org.bouncycastle.crypto']" />
     <remove-node path="/api/package[@name='org.bouncycastle.crypto.tls']" />
     <remove-node path="/api/package[@name='org.bouncycastle.crypto.modes']" />
