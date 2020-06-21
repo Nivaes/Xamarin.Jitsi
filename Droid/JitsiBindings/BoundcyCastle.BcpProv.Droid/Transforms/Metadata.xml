@@ -25,4 +25,6 @@
     <remove-node path="/api/package[@name='org.bouncycastle.crypto.tls']" />
     <remove-node path="/api/package[@name='org.bouncycastle.crypto.modes']" />
 
+    <remove-node path="/api/package[@name='org.bouncycastle.asn1.cmp']" />
+
 </metadata>
