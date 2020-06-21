@@ -27,4 +27,6 @@
 
     <remove-node path="/api/package[@name='org.bouncycastle.asn1.cmp']" />
 
+    <remove-node path="/api/package[@name='org.bouncycastle.asn1.x509']" />
+
 </metadata>

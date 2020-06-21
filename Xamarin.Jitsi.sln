@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JitsiMeet.iOS.Sample", "iOS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.Fresco.Droid", "Droid\JitsiBindings\Facebook.Fresco.Droid\Facebook.Fresco.Droid.csproj", "{45302493-09E2-4F5C-9E3A-38F74C378C1D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DropBox.Core.Sdk.Droid", "Droid\JitsiBindings\DropBox.Core.Sdk.Droid\DropBox.Core.Sdk.Droid.csproj", "{98D862B4-92E6-4802-AA3A-5075517A824B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -431,6 +433,18 @@ Global
 		{45302493-09E2-4F5C-9E3A-38F74C378C1D}.Release|iPhone.Build.0 = Release|Any CPU
 		{45302493-09E2-4F5C-9E3A-38F74C378C1D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{45302493-09E2-4F5C-9E3A-38F74C378C1D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{98D862B4-92E6-4802-AA3A-5075517A824B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D862B4-92E6-4802-AA3A-5075517A824B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D862B4-92E6-4802-AA3A-5075517A824B}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{98D862B4-92E6-4802-AA3A-5075517A824B}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{98D862B4-92E6-4802-AA3A-5075517A824B}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{98D862B4-92E6-4802-AA3A-5075517A824B}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{98D862B4-92E6-4802-AA3A-5075517A824B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D862B4-92E6-4802-AA3A-5075517A824B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98D862B4-92E6-4802-AA3A-5075517A824B}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{98D862B4-92E6-4802-AA3A-5075517A824B}.Release|iPhone.Build.0 = Release|Any CPU
+		{98D862B4-92E6-4802-AA3A-5075517A824B}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{98D862B4-92E6-4802-AA3A-5075517A824B}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -468,6 +482,7 @@ Global
 		{4D6F9449-5643-491C-B24E-E472ADF974BF} = {7D2A5366-9BB2-42FD-BE7E-BFF6DD79199F}
 		{F0333DDA-EB69-4B41-B060-7FB5BF499BAE} = {F15BE073-8C96-4CDE-9816-AE5ED45279A5}
 		{45302493-09E2-4F5C-9E3A-38F74C378C1D} = {7D2A5366-9BB2-42FD-BE7E-BFF6DD79199F}
+		{98D862B4-92E6-4802-AA3A-5075517A824B} = {7D2A5366-9BB2-42FD-BE7E-BFF6DD79199F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62224AB5-FF68-4E81-A15A-A10904E9A0ED}
