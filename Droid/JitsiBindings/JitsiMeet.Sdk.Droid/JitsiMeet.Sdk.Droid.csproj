@@ -60,9 +60,10 @@
 
     <ProjectReference Include="..\..\Bindings\Facebook.Fresco.Native.Image.Transcoder.Droid\Facebook.Fresco.Native.Image.Transcoder.Droid.csproj" />
 
+    <ProjectReference Include="..\..\Bindings\Facebook.Hermes.Droid\Facebook.Hermes.Droid.csproj" />
+
     <ProjectReference Include="..\BoundcyCastle.BcpProv.Droid\BoundcyCastle.BcpProv.Droid.csproj" />
 
-    <ProjectReference Include="..\Facebook.Hermes.Droid\Facebook.Hermes.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Background.Timer.Droid\Facebook.ReactNative.Background.Timer.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Calendar.Events.Droid\Facebook.ReactNative.Calendar.Events.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Community.Async.Storage.Droid\Facebook.ReactNative.Community.Async.Storage.Droid.csproj" />

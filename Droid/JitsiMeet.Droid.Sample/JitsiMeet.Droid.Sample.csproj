@@ -157,13 +157,13 @@
       <Project>{7f256afa-de3d-44ee-a652-22fafed8baf0}</Project>
       <Name>Facebook.Fresco.Native.Image.Transcoder.Droid</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Bindings\Facebook.Hermes.Droid\Facebook.Hermes.Droid.csproj">
+      <Project>{728869b7-3d41-459c-83a7-89bfbd9b8e27}</Project>
+      <Name>Facebook.Hermes.Droid</Name>
+    </ProjectReference>
     <ProjectReference Include="..\JitsiBindings\BoundcyCastle.BcpProv.Droid\BoundcyCastle.BcpProv.Droid.csproj">
       <Project>{a6d3d9c0-a75e-449d-add6-91d8ec5fd489}</Project>
       <Name>BoundcyCastle.BcpProv.Droid</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\JitsiBindings\Facebook.Hermes.Droid\Facebook.Hermes.Droid.csproj">
-      <Project>{5c257d97-247d-4b9e-931e-f6d5c96c6dcb}</Project>
-      <Name>Facebook.Hermes.Droid</Name>
     </ProjectReference>
     <ProjectReference Include="..\JitsiBindings\Facebook.ReactNative.Background.Timer.Droid\Facebook.ReactNative.Background.Timer.Droid.csproj">
       <Project>{4a1afd30-4084-4cdf-8d59-60b701f2022b}</Project>
