@@ -1,3 +1,9 @@
 ﻿<metadata>
+
     <remove-node path="/api/package[@name='com.facebook.react.bridge']" />
+    <remove-node path="/api/package[@name='com.facebook.common.executors']" />
+    <remove-node path="/api/package[@name='com.facebook.datasource']" />
+    <remove-node path="/api/package[@name='com.facebook.drawee.drawable']" />
+    <remove-node path="/api/package[@name='com.facebook.drawee.controller']" />
+
 </metadata>
