@@ -42,6 +42,8 @@
 
   <ItemGroup>
 
+    <ProjectReference Include="..\..\Bindings\DropBox.Core.Sdk.Droid\DropBox.Core.Sdk.Droid.csproj" />
+
     <ProjectReference Include="..\..\Bindings\Facebook.Fresco.Core.Droid\Facebook.Fresco.Core.Droid.csproj" />
 
     <ProjectReference Include="..\..\Bindings\Facebook.Fresco.Drawee.Droid\Facebook.Fresco.Drawee.Droid.csproj" />
@@ -54,9 +56,12 @@
 
     <ProjectReference Include="..\..\Bindings\Facebook.Fresco.Imape.Pipeline.Base.Droid\Facebook.Fresco.Image.Pipeline.Base.Droid.csproj" />
 
+    <ProjectReference Include="..\..\Bindings\Facebook.Fresco.Native.Image.Filters.Droid\Facebook.Fresco.Native.Image.Filters.Droid.csproj" />
+
+    <ProjectReference Include="..\..\Bindings\Facebook.Fresco.Native.Image.Transcoder.Droid\Facebook.Fresco.Native.Image.Transcoder.Droid.csproj" />
+
     <ProjectReference Include="..\BoundcyCastle.BcpProv.Droid\BoundcyCastle.BcpProv.Droid.csproj" />
 
-    <ProjectReference Include="..\DropBox.Core.Sdk.Droid\DropBox.Core.Sdk.Droid.csproj" />
     <ProjectReference Include="..\Facebook.Hermes.Droid\Facebook.Hermes.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Background.Timer.Droid\Facebook.ReactNative.Background.Timer.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Calendar.Events.Droid\Facebook.ReactNative.Calendar.Events.Droid.csproj" />

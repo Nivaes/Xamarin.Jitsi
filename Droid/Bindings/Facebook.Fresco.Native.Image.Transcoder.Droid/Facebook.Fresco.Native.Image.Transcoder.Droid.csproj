@@ -1,0 +1,42 @@
+﻿<Project Sdk="MSBuild.Sdk.Extras">
+  <PropertyGroup>
+    <TargetFrameworks>monoandroid90;monoandroid10.0</TargetFrameworks>
+    
+    <AssemblyName>Facebook.Fresco.Native.Image.Transcoder.Droid</AssemblyName>
+    <RootNamespace>Facebook.Fresco.Native.Image.Transcoder.Droid</RootNamespace>
+    <Description>Binding library of https://github.com/facebook/fresco</Description>
+    <PackageId>Nivaes.Facebook.Fresco.Native.Image.Transcoder.Droid</PackageId>
+    <PackageTags>xamarin;android;monodroid;facebook;native;image;transcoder</PackageTags>
+    <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
+
+    <Version>2.0.0.0</Version>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <IsBindingProject>true</IsBindingProject>
+    <OutputType>Library</OutputType>
+    <AndroidClassParser>class-parse</AndroidClassParser>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AndroidUseManagedDesignTimeResourceGenerator>False</AndroidUseManagedDesignTimeResourceGenerator>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Resources\**\*.cs" />
+    <Compile Remove="Resources\**\*.cs" />
+    <AndroidResource Include="Resources\**\*.xml" Generator="MSBuild:UpdateAndroidResources" />
+    <LibraryProjectZip Include="Jars\*.aar" />
+    <EmbeddedJar Include="Jars\*.jar" />
+    <TransformFile Include="Transforms\*.xml" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Facebook.Fresco.Core.Droid\Facebook.Fresco.Core.Droid.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Jars\" />
+  </ItemGroup>
+
+</Project>
