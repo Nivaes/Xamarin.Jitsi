@@ -1,0 +1,39 @@
+﻿<Project Sdk="MSBuild.Sdk.Extras">
+  <PropertyGroup>
+    <TargetFrameworks>monoandroid90;monoandroid10.0</TargetFrameworks>
+
+    <AssemblyName>Squareup.Duktape.Droid</AssemblyName>
+    <RootNamespace>Squareup.Duktape.Droid</RootNamespace>
+    <Description>Binding library of https://github.com/square/duktape-android</Description>
+    <PackageId>Nivaes.Squareup.Duktape.Droid</PackageId>
+    <PackageTags>xamarin;android;monodroid;squareup;duktape</PackageTags>
+    <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
+
+    <Version>3.1.4.0</Version>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <IsBindingProject>true</IsBindingProject>
+    <OutputType>Library</OutputType>
+    <AndroidClassParser>class-parse</AndroidClassParser>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AndroidUseManagedDesignTimeResourceGenerator>False</AndroidUseManagedDesignTimeResourceGenerator>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Resources\**\*.cs" />
+    <Compile Remove="Resources\**\*.cs" />
+    <AndroidResource Include="Resources\**\*.xml" Generator="MSBuild:UpdateAndroidResources" />
+    <LibraryProjectZip Include="Jars\*.aar" />
+    <EmbeddedJar Include="Jars\Embedded\*.jar" />
+    <EmbeddedReferenceJar Include="Jars\Reference\*.jar" />
+    <TransformFile Include="Transforms\*.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Jars\Embedded\" />
+  </ItemGroup>
+
+</Project>

@@ -161,6 +161,10 @@
       <Project>{728869b7-3d41-459c-83a7-89bfbd9b8e27}</Project>
       <Name>Facebook.Hermes.Droid</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Bindings\Squareup.Duktape.Droid\Squareup.Duktape.Droid.csproj">
+      <Project>{6165a2e3-b568-4c3a-86ab-b4ca257765ff}</Project>
+      <Name>Squareup.Duktape.Droid</Name>
+    </ProjectReference>
     <ProjectReference Include="..\JitsiBindings\BoundcyCastle.BcpProv.Droid\BoundcyCastle.BcpProv.Droid.csproj">
       <Project>{a6d3d9c0-a75e-449d-add6-91d8ec5fd489}</Project>
       <Name>BoundcyCastle.BcpProv.Droid</Name>
