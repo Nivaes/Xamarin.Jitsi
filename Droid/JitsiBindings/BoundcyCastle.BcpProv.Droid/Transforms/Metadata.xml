@@ -5,7 +5,9 @@
     <remove-node path="/api/package[@name='org.bouncycastle.pqc.jcajce.provider.rainbow']" />
     <remove-node path="/api/package[@name='org.bouncycastle.pqc.jcajce.provider.util']" />
     <remove-node path="/api/package[@name='org.bouncycastle.pqc.jcajce.provider.mceliece']" />
-    
+    <remove-node path="/api/package[@name='org.bouncycastle.pqc.crypto.rainbow']" />
+    <remove-node path="/api/package[@name='org.bouncycastle.pqc.crypto.mceliece']" />
+
     <remove-node path="/api/package[@name='org.bouncycastle.x509']" />
     
     <remove-node path="/api/package[@name='org.bouncycastle.jcajce.provider.symmetric.util']" />
@@ -30,5 +32,6 @@
     <remove-node path="/api/package[@name='org.bouncycastle.asn1.x509']" />
     <remove-node path="/api/package[@name='org.bouncycastle.asn1.cms']" />
     <remove-node path="/api/package[@name='org.bouncycastle.asn1.cms.ecc']" />
+    <remove-node path="/api/package[@name='org.bouncycastle.math.ec.custom.sec']" />
 
 </metadata>

@@ -33,11 +33,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Naxam.Fresco.Droid" Version="1.5.0" />
-    <PackageReference Include="Naxam.FrescoCore.Droid" Version="1.5.0" />
-    <PackageReference Include="Naxam.FrescoDrawee.Droid" Version="1.5.0" />
-    <PackageReference Include="Naxam.FrescoImagePipeline.Droid" Version="1.5.0" />
-    <PackageReference Include="Naxam.FrescoImagePipelineBase.Droid" Version="1.5.0" />
     <PackageReference Include="Naxam.Jakewharton.Timber" Version="4.7.1" />
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.1.0.1" />
     <PackageReference Include="Naxam.SoLoader.Droid" Version="0.6.1.2" />
@@ -46,6 +41,16 @@
   </ItemGroup>
 
   <ItemGroup>
+
+    <ProjectReference Include="..\..\Bindings\Facebook.Fresco.Core.Droid\Facebook.Fresco.Core.Droid.csproj" />
+
+    <ProjectReference Include="..\..\Bindings\Facebook.Fresco.Drawee.Droid\Facebook.Fresco.Drawee.Droid.csproj" />
+
+    <ProjectReference Include="..\..\Bindings\Facebook.Fresco.Droid\Facebook.Fresco.Droid.csproj" />
+
+    <ProjectReference Include="..\..\Bindings\Facebook.Fresco.Image.Pipeline.Droid\Facebook.Fresco.Image.Pipeline.Droid.csproj" />
+
+    <ProjectReference Include="..\..\Bindings\Facebook.Fresco.Imape.Pipeline.Base.Droid\Facebook.Fresco.Image.Pipeline.Base.Droid.csproj" />
 
     <ProjectReference Include="..\BoundcyCastle.BcpProv.Droid\BoundcyCastle.BcpProv.Droid.csproj" />
 

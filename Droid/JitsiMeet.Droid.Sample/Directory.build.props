@@ -1,6 +1,6 @@
 ﻿<Project>
 
-  <PropertyGroup>
+  <!--<PropertyGroup>
     <IsBindingProject>true</IsBindingProject>
     <OutputType>Library</OutputType>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
@@ -11,6 +11,6 @@
 
   <PropertyGroup>
     <AndroidUseManagedDesignTimeResourceGenerator>False</AndroidUseManagedDesignTimeResourceGenerator>
-  </PropertyGroup>
+  </PropertyGroup>-->
   
 </Project>
