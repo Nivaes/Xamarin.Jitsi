@@ -114,7 +114,7 @@
       <Version>1.2.4.1</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4">
-      <Version>1.0.0.1</Version>
+      <Version>1.0.0.6</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData">
       <Version>2.2.0.1</Version>
