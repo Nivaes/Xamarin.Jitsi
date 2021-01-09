@@ -34,7 +34,7 @@
 
   <ItemGroup>
     <PackageReference Include="Naxam.Jakewharton.Timber" Version="4.7.1" />
-    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.1.0.1" />
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.2.0.6" />
     <PackageReference Include="Naxam.SoLoader.Droid" Version="0.6.1.2" />
     <PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.2.0.1" />
     <PackageReference Include="Xamarin.GooglePlayServices.Auth" Version="117.0.0-preview03" />
