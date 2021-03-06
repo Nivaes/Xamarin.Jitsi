@@ -37,7 +37,7 @@
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.2.0.7" />
     <PackageReference Include="Naxam.SoLoader.Droid" Version="0.6.1.2" />
     <PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.3.0.1" />
-    <PackageReference Include="Xamarin.GooglePlayServices.Auth" Version="117.0.0-preview03" />
+    <PackageReference Include="Xamarin.GooglePlayServices.Auth" Version="119.0.0" />
   </ItemGroup>
 
   <ItemGroup>
