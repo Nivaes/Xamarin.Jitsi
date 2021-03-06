@@ -1,6 +1,6 @@
-﻿<Project Sdk="MSBuild.Sdk.Extras">
+﻿<Project Sdk="Xamarin.Legacy.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>monoandroid90;monoandroid10.0;monoandroid11.0</TargetFrameworks>
+    <TargetFrameworks>MonoAndroid90;net6.0-android</TargetFrameworks>
     
     <AssemblyName>Facebook.React.Native.Background.Timer.Jitsi.Droid</AssemblyName>
     <RootNamespace>Facebook.React.Native.Background.Timer.Jitsi.Droid</RootNamespace>

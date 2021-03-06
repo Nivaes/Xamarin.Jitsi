@@ -1,6 +1,9 @@
-﻿<Project Sdk="MSBuild.Sdk.Extras">
+﻿<Project Sdk="Xamarin.Legacy.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>monoandroid90;monoandroid10.0;monoandroid11.0</TargetFrameworks>
+    <TargetFrameworks>MonoAndroid90;net6.0-android</TargetFrameworks>
+    <OutputType>Library</OutputType>
+    <IsBindingProject>true</IsBindingProject>
+    <AndroidClassParser>class-parse</AndroidClassParser>
 
     <AssemblyName>DropBox.Core.Sdk.Droid</AssemblyName>
     <RootNamespace>DropBox.Core.Sdk.Droid</RootNamespace>
@@ -10,12 +13,6 @@
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
     <Version>3.1.4.0</Version>
-  </PropertyGroup>
-
-  <PropertyGroup>
-    <IsBindingProject>true</IsBindingProject>
-    <OutputType>Library</OutputType>
-    <AndroidClassParser>class-parse</AndroidClassParser>
   </PropertyGroup>
 
   <PropertyGroup>

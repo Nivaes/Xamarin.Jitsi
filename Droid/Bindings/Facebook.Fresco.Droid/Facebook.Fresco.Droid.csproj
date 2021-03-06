@@ -1,7 +1,7 @@
-﻿<Project Sdk="MSBuild.Sdk.Extras">
+﻿<Project Sdk="Xamarin.Legacy.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>monoandroid90;monoandroid10.0;monoandroid11.0</TargetFrameworks>
-    
+    <TargetFrameworks>MonoAndroid90;net6.0-android</TargetFrameworks>
+
     <AssemblyName>Facebook.Fresco.Core.Droid</AssemblyName>
     <RootNamespace>Facebook.Fresco.Core.Droid</RootNamespace>
     <Description>Binding library of https://github.com/facebook/fresco</Description>
