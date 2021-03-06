@@ -1,9 +1,11 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras">
   <PropertyGroup>
-    <TargetFrameworks>monoandroid90;monoandroid10.0</TargetFrameworks>
-    
+    <TargetFrameworks>monoandroid90;monoandroid10.0;monoandroid11.0</TargetFrameworks>  
     <AssemblyName>Facebook.ReactNative.Droid</AssemblyName>
     <RootNamespace>Facebook.ReactNative.Droid</RootNamespace>
+  </PropertyGroup>
+  
+  <PropertyGroup>
     <Description>Binding library of https://github.com/jitsi/jitsi-meet</Description>
     <PackageId>Nivaes.Jitsi.Facebook.ReactNative.Droid</PackageId>
     <PackageTags>xamarin;android;monodroid;facebook,react;native</PackageTags>
@@ -27,7 +29,7 @@
     <Compile Remove="Resources\**\*.cs" />
     <AndroidResource Include="Resources\**\*.xml" Generator="MSBuild:UpdateAndroidResources" />
     <LibraryProjectZip Include="Jars\*.aar" />
-     <EmbeddedJar Include="Jars\Embedded\*.jar" />
+    <EmbeddedJar Include="Jars\Embedded\*.jar" />
     <EmbeddedReferenceJar Include="Jars\Reference\*.jar" />
     <TransformFile Include="Transforms\*.xml" />
   </ItemGroup>

@@ -125,5 +125,11 @@
   <ItemGroup>
     <Folder Include="Resources\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Jitsibindings\JitsiMeet.Sdk.iOS\JitsiMeet.Sdk.iOS.csproj">
+      <Project>{f217cbac-8f48-4f57-b49e-07e2606924aa}</Project>
+      <Name>JitsiMeet.Sdk.iOS</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

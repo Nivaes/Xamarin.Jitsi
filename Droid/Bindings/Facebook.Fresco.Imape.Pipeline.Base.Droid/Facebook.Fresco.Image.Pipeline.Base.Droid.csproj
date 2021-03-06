@@ -1,6 +1,6 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras">
   <PropertyGroup>
-    <TargetFrameworks>monoandroid90;monoandroid10.0</TargetFrameworks>
+    <TargetFrameworks>monoandroid90;monoandroid10.0;monoandroid11.0</TargetFrameworks>
     
     <AssemblyName>Facebook.Fresco.Image.Pipeline.Base.Droid</AssemblyName>
     <RootNamespace>Facebook.Fresco.Image.Pipeline.Base.Droid</RootNamespace>
