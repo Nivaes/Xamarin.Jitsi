@@ -15,5 +15,16 @@
     <remove-node path="/api/package[@name='com.dropbox.core.v2.users']" />
     <remove-node path="/api/package[@name='com.dropbox.core.v2.userscommon']" />
     <remove-node path="/api/package[@name='com.dropbox.core.v2.filerequests']" />
+    <remove-node path="/api/package[@name='com.dropbox.core.v2.common']" />
+    <remove-node path="/api/package[@name='com.dropbox.core.v2.fileproperties']" />
+    <remove-node path="/api/package[@name='com.dropbox.core.v2.secondaryemails']" />
+    <remove-node path="/api/package[@name='com.dropbox.core.v2.seenstate']" />
+    <remove-node path="/api/package[@name='com.dropbox.core.v2.team']" />
+    <remove-node path="/api/package[@name='com.dropbox.core.v2.teamcommon']" />
+    <remove-node path="/api/package[@name='com.dropbox.core.v2.teampolicies']" />
+
+    <remove-node path="/api/package[@name='com.fasterxml.jackson.core']" />
+    <remove-node path="/api/package[@name='com.fasterxml.jackson.core.base']" />
+    <remove-node path="/api/package[@name='com.fasterxml.jackson.core.sym']" />
 
 </metadata>
