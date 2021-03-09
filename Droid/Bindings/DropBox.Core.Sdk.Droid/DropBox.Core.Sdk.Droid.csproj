@@ -19,7 +19,7 @@
     <AndroidUseManagedDesignTimeResourceGenerator>False</AndroidUseManagedDesignTimeResourceGenerator>
   </PropertyGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <None Include="Resources\**\*.cs" />
     <Compile Remove="Resources\**\*.cs" />
     <AndroidResource Include="Resources\**\*.xml" Generator="MSBuild:UpdateAndroidResources" />
@@ -27,6 +27,6 @@
     <EmbeddedJar Include="Jars\Embedded\*.jar" />
     <EmbeddedReferenceJar Include="Jars\Reference\*.jar" />
     <TransformFile Include="Transforms\*.xml" />
-  </ItemGroup>
+  </ItemGroup>-->
 
 </Project>
