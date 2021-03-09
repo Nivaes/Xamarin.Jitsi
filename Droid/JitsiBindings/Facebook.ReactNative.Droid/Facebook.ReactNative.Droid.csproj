@@ -11,7 +11,7 @@
     <PackageTags>xamarin;android;monodroid;facebook,react;native</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
-    <Version>0.61.5.0</Version>
+    <Version>0.61.5-develop</Version>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -24,7 +24,7 @@
     <AndroidUseManagedDesignTimeResourceGenerator>False</AndroidUseManagedDesignTimeResourceGenerator>
   </PropertyGroup>
   
-  <ItemGroup>
+  <!--<ItemGroup>
     <None Include="Resources\**\*.cs" />
     <Compile Remove="Resources\**\*.cs" />
     <AndroidResource Include="Resources\**\*.xml" Generator="MSBuild:UpdateAndroidResources" />
@@ -32,10 +32,10 @@
     <EmbeddedJar Include="Jars\Embedded\*.jar" />
     <EmbeddedReferenceJar Include="Jars\Reference\*.jar" />
     <TransformFile Include="Transforms\*.xml" />
-  </ItemGroup>
+  </ItemGroup>-->
   
   <ItemGroup>
-    <PackageReference Include="Xamarin.JavaX.Inject" Version="1.0.0" />
+    <PackageReference Include="Xamarin.JavaX.Inject" />
   </ItemGroup>
   
 </Project>

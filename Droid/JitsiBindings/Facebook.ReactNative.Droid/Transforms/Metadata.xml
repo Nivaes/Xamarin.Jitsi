@@ -51,5 +51,13 @@
 
     <remove-node path="/api/package[@name='com.facebook.react.modules.core']/interface[@name='PermissionAwareActivity']/method[@name='checkPermission' and count(parameter)=3 and parameter[1][@type='java.lang.String'] and parameter[2][@type='int'] and parameter[3][@type='int']]" />
     <remove-node path="/api/package[@name='com.facebook.react.modules.core']/interface[@name='PermissionAwareActivity']/method[@name='checkSelfPermission' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" />
-    
+
+    <remove-node path="/api/package[@name='kotlin']" />
+    <remove-node path="/api/package[@name='kotlin.collections']" />
+    <remove-node path="/api/package[@name='kotlin.jvm.internal']" />
+    <remove-node path="/api/package[@name='kotlin.ranges']" />
+    <remove-node path="/api/package[@name='kotlin.sequences']" />
+    <remove-node path="/api/package[@name='kotlin.text']" />
+    <remove-node path="/api/package[@name='kotlin.time']" />
+
 </metadata>

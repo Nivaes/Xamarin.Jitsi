@@ -9,7 +9,7 @@
     <PackageTags>xamarin;android;monodroid;jitsi;igniterealtime;smack</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
-    <Version>4.2.4.0</Version>
+    <Version>4.2.4-develop</Version>
   </PropertyGroup>
 
   <PropertyGroup>

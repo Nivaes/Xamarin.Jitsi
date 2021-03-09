@@ -9,7 +9,7 @@
     <PackageTags>xamarin;android;monodroid;facebook;react;LinearGradient</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
-    <Version>6.0.2.0</Version>
+    <Version>6.0.2-develop</Version>
   </PropertyGroup>
 
   <PropertyGroup>

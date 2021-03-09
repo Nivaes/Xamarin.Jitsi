@@ -12,7 +12,7 @@
     <PackageTags>xamarin;android;monodroid;dropbox</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
-    <Version>3.1.4.1</Version>
+    <Version>3.1.4-develop</Version>
   </PropertyGroup>
 
   <PropertyGroup>

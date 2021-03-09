@@ -18,6 +18,8 @@
     <PackageReference Update="Xamarin.GooglePlayServices.Auth" Version="119.0.0" />
     <PackageReference Update="Xamarin.GooglePlayServices.Location" Version="118.0.0" />
 
+    <PackageReference Update="Xamarin.JavaX.Inject" Version="1.0.0" />
+
     <PackageReference Update="Naxam.Jakewharton.Timber" Version="4.7.1" />
     <PackageReference Update="Naxam.SoLoader.Droid" Version="0.6.1.2" />
   </ItemGroup>

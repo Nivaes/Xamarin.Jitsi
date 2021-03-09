@@ -9,7 +9,7 @@
     <PackageTags>xamarin;android;monodroid;facebook;react;LinearGradient</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
-    <Version>2.1.1.0</Version>
+    <Version>2.1.1-develop</Version>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -22,13 +22,13 @@
     <AndroidUseManagedDesignTimeResourceGenerator>False</AndroidUseManagedDesignTimeResourceGenerator>
   </PropertyGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <None Include="Resources\**\*.cs" />
     <Compile Remove="Resources\**\*.cs" />
     <AndroidResource Include="Resources\**\*.xml" Generator="MSBuild:UpdateAndroidResources" />
     <LibraryProjectZip Include="Jars\*.aar" />
     <TransformFile Include="Transforms\*.xml" />
-  </ItemGroup>
+  </ItemGroup>-->
   
   <ItemGroup>
     <ProjectReference Include="..\Facebook.ReactNative.Droid\Facebook.ReactNative.Droid.csproj" />
