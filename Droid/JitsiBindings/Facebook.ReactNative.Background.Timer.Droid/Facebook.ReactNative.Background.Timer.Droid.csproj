@@ -29,7 +29,11 @@
     <LibraryProjectZip Include="Jars\*.aar" />
     <TransformFile Include="Transforms\*.xml" />
   </ItemGroup>-->
-  
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" />
+  </ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\Facebook.ReactNative.Droid\Facebook.ReactNative.Droid.csproj" />
   </ItemGroup>

@@ -86,7 +86,6 @@
     <ProjectReference Include="..\Facebook.ReactNative.WebView.Droid\Facebook.ReactNative.WebView.Droid.csproj" />
     <ProjectReference Include="..\IgniteRealTime.Smack.Droid\IgniteRealTime.Smack.Droid.csproj" />
     <ProjectReference Include="..\Jitsi.Droid\Jitsi.Droid.csproj" />
-    <ProjectReference Include="..\Webkit.Droid.Droid\Webkit.Droid.csproj" />
   </ItemGroup>
 
   <ItemGroup>

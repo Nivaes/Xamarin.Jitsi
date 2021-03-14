@@ -55,5 +55,4 @@
     <remove-node path="/api/package[@name='net.java.sip.communicator.service.protocol.media']" />
     <remove-node path="/api/package[@name='net.java.sip.communicator.util']" />
 
-
 </metadata>

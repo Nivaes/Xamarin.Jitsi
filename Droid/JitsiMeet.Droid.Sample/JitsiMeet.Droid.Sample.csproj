@@ -6,9 +6,11 @@
     <RootNamespace>JitsiMeet.Droid.Sample</RootNamespace>
     <AssemblyName>JitsiMeet.Droid.Sample</AssemblyName>
   </PropertyGroup>
+
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="Xamarin.AndroidX.AppCompat" />
     <PackageReference Include="Xamarin.AndroidX.ConstraintLayout" />
@@ -16,6 +18,7 @@
     <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4" />
     <PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" />
   </ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\Bindings\DropBox.Core.Sdk.Droid\DropBox.Core.Sdk.Droid.csproj" />
     <ProjectReference Include="..\Bindings\Facebook.Fresco.Core.Droid\Facebook.Fresco.Core.Droid.csproj" />
@@ -49,7 +52,7 @@
     <ProjectReference Include="..\JitsiBindings\Facebook.ReactNative.WebView.Droid\Facebook.ReactNative.WebView.Droid.csproj" />
     <ProjectReference Include="..\JitsiBindings\IgniteRealTime.Smack.Droid\IgniteRealTime.Smack.Droid.csproj" />
     <ProjectReference Include="..\JitsiBindings\JitsiMeet.Sdk.Droid\JitsiMeet.Sdk.Droid.csproj" />
-    <ProjectReference Include="..\JitsiBindings\Webkit.Droid.Droid\Webkit.Droid.csproj" />
+    <ProjectReference Include="..\JitsiBindings\Webkit.Droid\Webkit.Droid.csproj" />
   </ItemGroup>
 
 </Project>
