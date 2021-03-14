@@ -39,4 +39,7 @@
 
     <remove-node path="/api/package[@name='org.jitsi.impl.neomedia.quicktime']" />
 
+    <remove-node path="/api/package[@name='net.java.sip.communicator.service.protocol']" />
+    <remove-node path="/api/package[@name='net.java.sip.communicator.impl.protocol.sip.net']" />
+
 </metadata>

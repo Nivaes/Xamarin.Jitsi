@@ -2,6 +2,9 @@
   <PropertyGroup>
     <TargetFramework>net6.0-android</TargetFramework>
     <OutputType>Exe</OutputType>
+
+    <RootNamespace>JitsiMeet.Droid.Sample</RootNamespace>
+    <AssemblyName>JitsiMeet.Droid.Sample</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
