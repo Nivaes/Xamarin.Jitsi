@@ -42,4 +42,18 @@
     <remove-node path="/api/package[@name='net.java.sip.communicator.service.protocol']" />
     <remove-node path="/api/package[@name='net.java.sip.communicator.impl.protocol.sip.net']" />
 
+    <remove-node path="/api/package[@name='net.java.sip.communicator.impl.protocol.jabber']" />
+    <remove-node path="/api/package[@name='net.java.sip.communicator.impl.protocol.sip']" />
+    <remove-node path="/api/package[@name='net.java.sip.communicator.impl.protocol.sip.xcap']" />
+    <remove-node path="/api/package[@name='net.java.sip.communicator.plugin.desktoputil']" />
+    <remove-node path="/api/package[@name='net.java.sip.communicator.service.argdelegation']" />
+    <remove-node path="/api/package[@name='net.java.sip.communicator.service.certificate']" />
+    <remove-node path="/api/package[@name='net.java.sip.communicator.service.resources']" />
+    <remove-node path="/api/package[@name='net.java.sip.communicator.service.gui']" />
+    <remove-node path="/api/package[@name='net.java.sip.communicator.service.systray']" />
+    <remove-node path="/api/package[@name='net.java.sip.communicator.service.protocol.event']" />
+    <remove-node path="/api/package[@name='net.java.sip.communicator.service.protocol.media']" />
+    <remove-node path="/api/package[@name='net.java.sip.communicator.util']" />
+
+
 </metadata>

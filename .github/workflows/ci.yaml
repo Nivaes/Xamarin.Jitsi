@@ -51,19 +51,29 @@ jobs:
         dotnet tool install --global boots
         boots https://dl.internalx.com/vsts-devdiv/Xamarin.Android/public/net6/4534967/main/f4d8fe238b15eadfc7842749bf13e5fca3e2f2d2/Microsoft.NET.Workload.Android.11.0.200.148.msi
 
-    #- name: Install dependencies
-    #  run: |
-    #    msbuild /t:restore ./Nivaes.TimeLine.Droid/
-    #    msbuild /t:restore ./Nivaes.TimeLine.Droid.Sample/
+    - name: Install dependencies
+      run: |
+        msbuild /t:restore .\Droid\Bindings\DropBox.Core.Sdk.Droid\
+        msbuild /t:restore .\Droid\JitsiBindings\Facebook.ReactNative.Keep.Awake.Droid\
+        msbuild /t:restore .\Droid\JitsiMeet.Droid.Sample\
 
-    - name: Build DropBox.Core.Sdk.Droid
-      run: dotnet build .\Droid\Bindings\DropBox.Core.Sdk.Droid\ /property:Configuration=Release
+    - name: MsBuild DropBox.Core.Sdk.Droid
+      run: msbuild .\Droid\Bindings\DropBox.Core.Sdk.Droid\ /property:Configuration=Release
 
-    - name: Facebook.ReactNative.Keep.Awake.Droid
-      run: dotnet build .\Droid\JitsiBindings\Facebook.ReactNative.Keep.Awake.Droid\ /property:Configuration=Release
+    - name: MsBuild Facebook.ReactNative.Keep.Awake.Droid
+      run: msbuild .\Droid\JitsiBindings\Facebook.ReactNative.Keep.Awake.Droid\ /property:Configuration=Release
 
-    - name: Build DropBox.Core.Sdk.Droid
-      run: dotnet build .\Droid\JitsiMeet.Droid.Sample\JitsiMeet.Droid.Sample.csproj /property:Configuration=Release
+    - name: MsBuild JitsiMeet.Droid.Sample
+      run: msbuild .\Droid\JitsiMeet.Droid.Sample\ /property:Configuration=Release
+
+    #- name: Build DropBox.Core.Sdk.Droid
+    #  run: dotnet build .\Droid\Bindings\DropBox.Core.Sdk.Droid\ /property:Configuration=Release
+
+    #- name: Facebook.ReactNative.Keep.Awake.Droid
+    #  run: dotnet build .\Droid\JitsiBindings\Facebook.ReactNative.Keep.Awake.Droid\ /property:Configuration=Release
+
+    #- name: Build DropBox.Core.Sdk.Droid
+    #  run: dotnet build .\Droid\JitsiMeet.Droid.Sample\JitsiMeet.Droid.Sample.csproj /property:Configuration=Release
 
     #- name: Build App.Cross.Droid
     #  run: msbuild ./Nivaes.TimeLine.Droid/ /property:Configuration=Release
