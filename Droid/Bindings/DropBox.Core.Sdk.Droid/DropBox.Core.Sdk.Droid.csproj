@@ -1,6 +1,8 @@
-﻿<Project Sdk="Xamarin.Legacy.Sdk">
+﻿<!--<Project Sdk="Xamarin.Legacy.Sdk">-->
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>MonoAndroid90;net6.0-android</TargetFrameworks>
+    <!--<TargetFrameworks>MonoAndroid90;net6.0-android</TargetFrameworks>-->
+    <TargetFramework>net6.0-android</TargetFramework>
     <OutputType>Library</OutputType>
     <IsBindingProject>true</IsBindingProject>
     <AndroidClassParser>class-parse</AndroidClassParser>
