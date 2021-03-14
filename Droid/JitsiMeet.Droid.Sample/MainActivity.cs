@@ -5,12 +5,13 @@ using AndroidX.AppCompat.App;
 using Android.Widget;
 using Java.Lang;
 using Java.Net;
-using Org.Jitsi.Meet.Sdk;
+//using Org.Jitsi.Meet.Sdk;
 
 namespace JitsiMeet.Droid.Sample
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity
+    public class MainActivity
+        : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -28,13 +29,13 @@ namespace JitsiMeet.Droid.Sample
                 throw new RuntimeException("Invalid server URL!");
             }
 
-            JitsiMeetConferenceOptions defaultOptions
-                = new JitsiMeetConferenceOptions.Builder()
-                    .SetServerURL(serverUrl)
-                    .SetWelcomePageEnabled(false)
-                    .Build();
+            //JitsiMeetConferenceOptions defaultOptions
+            //    = new JitsiMeetConferenceOptions.Builder()
+            //        .SetServerURL(serverUrl)
+            //        .SetWelcomePageEnabled(false)
+            //        .Build();
 
-            Org.Jitsi.Meet.Sdk.JitsiMeet.DefaultConferenceOptions = defaultOptions;
+            //Org.Jitsi.Meet.Sdk.JitsiMeet.DefaultConferenceOptions = defaultOptions;
 
             var butJoint = base.FindViewById<Button>(Resource.Id.butJoin);
             butJoint.Click += ButJointClick;
@@ -49,14 +50,14 @@ namespace JitsiMeet.Droid.Sample
             {
                 // Build options object for joining the conference. The SDK will merge the default
                 // one we set earlier and this one when joining.
-                JitsiMeetConferenceOptions options
-                    = new JitsiMeetConferenceOptions.Builder()
-                        .SetRoom(text)
-                        .Build();
+                //JitsiMeetConferenceOptions options
+                //    = new JitsiMeetConferenceOptions.Builder()
+                //        .SetRoom(text)
+                //        .Build();
 
                 // Launch the new activity with the given options. The launch() method takes care
                 // of creating the required Intent and passing the options.
-                Org.Jitsi.Meet.Sdk.JitsiMeetActivity.Launch(this, options);
+                //_ = Org.Jitsi.Meet.Sdk.JitsiMeetActivity.Launch(this, options);
             }
         }
     }
