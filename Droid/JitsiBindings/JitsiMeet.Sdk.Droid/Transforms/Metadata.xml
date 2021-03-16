@@ -1,6 +1,11 @@
 ﻿<metadata>
 
-    <remove-node path="/api/package[@name='org.freedesktop.dbus']" />
+    <!--<remove-node path="/api/package[@name='org.freedesktop.dbus']" />-->
     <remove-node path="/api/package[@name='org.jitsi_modified.sctp4j']" />
+    <remove-node path="/api/package[@name='com.amplitude.api']" />
+    <remove-node path="/api/package[@name='com.amplitude.security']" />
+    <remove-node path="/api/package[@name='com.groupon.seleniumgridextras']"/>
+    <rename-node path="/api/package[@name='com.groupon.seleniumgridextras.grid.proxies.sessions.threads']" />
+    <rename-node path="/api/package[@name='com.groupon.seleniumgridextras.utilities.json']" />
 
 </metadata>

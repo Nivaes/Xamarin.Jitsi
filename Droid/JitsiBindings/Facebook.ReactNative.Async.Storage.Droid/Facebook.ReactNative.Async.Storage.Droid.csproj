@@ -2,10 +2,10 @@
   <PropertyGroup>
     <TargetFrameworks>MonoAndroid90;net6.0-android</TargetFrameworks>
     
-    <AssemblyName>Facebook.React.Native.Community.Async.Storage.Jitsi.Droid</AssemblyName>
-    <RootNamespace>Facebook.React.Native.Community.Async.Storage.Jitsi.Droid</RootNamespace>
+    <AssemblyName>Facebook.React.Native.Async.Storage.Jitsi.Droid</AssemblyName>
+    <RootNamespace>Facebook.React.Native.Async.Storage.Jitsi.Droid</RootNamespace>
     <Description>Binding library of https://github.com/jitsi/jitsi-meet</Description>
-    <PackageId>Nivaes.Facebook.React.Native.Community.Async.Storage.Jitsi.Droid</PackageId>
+    <PackageId>Nivaes.Facebook.React.Native.Async.Storage.Jitsi.Droid</PackageId>
     <PackageTags>xamarin;android;monodroid;facebook;react;LinearGradient</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
@@ -30,7 +30,7 @@
     <EmbeddedJar Include="Jars\*.jar" />
     <TransformFile Include="Transforms\*.xml" />
   </ItemGroup>
-
+  
   <ItemGroup>
     <PackageReference Include="Xamarin.AndroidX.AppCompat" />
   </ItemGroup>

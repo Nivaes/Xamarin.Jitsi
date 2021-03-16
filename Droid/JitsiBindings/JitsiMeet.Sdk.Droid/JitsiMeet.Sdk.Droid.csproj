@@ -22,7 +22,7 @@
     <AndroidUseManagedDesignTimeResourceGenerator>False</AndroidUseManagedDesignTimeResourceGenerator>
   </PropertyGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <None Include="Resources\**\*.cs" />
     <Compile Remove="Resources\**\*.cs" />
     <AndroidResource Include="Resources\**\*.xml" Generator="MSBuild:UpdateAndroidResources" />
@@ -30,7 +30,7 @@
     <EmbeddedJar Include="Jars\Embedded\*.jar" />
     <EmbeddedReferenceJar Include="Jars\Reference\*.jar" />
     <TransformFile Include="Transforms\*.xml" />
-  </ItemGroup>
+  </ItemGroup>-->
 
   <ItemGroup>
     <PackageReference Include="Naxam.Jakewharton.Timber" />
@@ -68,7 +68,7 @@
 
     <ProjectReference Include="..\Facebook.ReactNative.Background.Timer.Droid\Facebook.ReactNative.Background.Timer.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Calendar.Events.Droid\Facebook.ReactNative.Calendar.Events.Droid.csproj" />
-    <ProjectReference Include="..\Facebook.ReactNative.Community.Async.Storage.Droid\Facebook.ReactNative.Community.Async.Storage.Droid.csproj" />
+    <ProjectReference Include="..\Facebook.ReactNative.Async.Storage.Droid\Facebook.ReactNative.Async.Storage.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Community.Netinfo.Droid\Facebook.ReactNative.Community.Netinfo.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Default.Preference.Droid\Facebook.ReactNative.Default.Preference.Droid.csproj" />
     <ProjectReference Include="..\Facebook.ReactNative.Droid\Facebook.ReactNative.Droid.csproj" />

@@ -26,7 +26,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Calend
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Background.Timer.Droid", "Droid\JitsiBindings\Facebook.ReactNative.Background.Timer.Droid\Facebook.ReactNative.Background.Timer.Droid.csproj", "{4A1AFD30-4084-4CDF-8D59-60B701F2022B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Community.Async.Storage.Droid", "Droid\JitsiBindings\Facebook.ReactNative.Community.Async.Storage.Droid\Facebook.ReactNative.Community.Async.Storage.Droid.csproj", "{44005E12-CA64-4BE4-9304-FE1855EDBF79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Async.Storage.Droid", "Droid\JitsiBindings\Facebook.ReactNative.Async.Storage.Droid\Facebook.ReactNative.Async.Storage.Droid.csproj", "{44005E12-CA64-4BE4-9304-FE1855EDBF79}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.ReactNative.Community.Netinfo.Droid", "Droid\JitsiBindings\Facebook.ReactNative.Community.Netinfo.Droid\Facebook.ReactNative.Community.Netinfo.Droid.csproj", "{ABA2D592-2493-41E8-8DE3-63BBAF638BAA}"
 EndProject
