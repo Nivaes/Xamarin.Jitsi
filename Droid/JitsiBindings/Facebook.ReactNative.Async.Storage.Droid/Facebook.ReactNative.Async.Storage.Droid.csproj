@@ -6,7 +6,7 @@
     <RootNamespace>Facebook.React.Native.Async.Storage.Jitsi.Droid</RootNamespace>
     <Description>Binding library of https://github.com/jitsi/jitsi-meet</Description>
     <PackageId>Nivaes.Facebook.React.Native.Async.Storage.Jitsi.Droid</PackageId>
-    <PackageTags>xamarin;android;monodroid;facebook;react;LinearGradient</PackageTags>
+    <PackageTags>xamarin;android;facebook;react</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
     <Version>1.3.4-develop</Version>

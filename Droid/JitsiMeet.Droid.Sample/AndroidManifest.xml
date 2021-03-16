@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-            android:versionCode="40"
-            android:versionName="0.0.0.40"
+            android:versionCode="41"
+            android:versionName="0.0.0.41"
             package="com.nivaes.jitsimeet.droid.sample"
             android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="30" />

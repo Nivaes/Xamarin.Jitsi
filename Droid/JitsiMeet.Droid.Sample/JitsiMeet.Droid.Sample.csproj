@@ -31,6 +31,7 @@
     <ProjectReference Include="..\Bindings\Facebook.Fresco.Native.Image.Transcoder.Droid\Facebook.Fresco.Native.Image.Transcoder.Droid.csproj" />
     <ProjectReference Include="..\Bindings\Facebook.Hermes.Droid\Facebook.Hermes.Droid.csproj" />
     <ProjectReference Include="..\Bindings\Squareup.Duktape.Droid\Squareup.Duktape.Droid.csproj" />
+    <ProjectReference Include="..\Bindings\Facebook.Webkit.Droid\Facebook.Webkit.Droid.csproj" />
     <ProjectReference Include="..\JitsiBindings\BoundcyCastle.BcpProv.Droid\BoundcyCastle.BcpProv.Droid.csproj" />
     <ProjectReference Include="..\JitsiBindings\Facebook.ReactNative.Background.Timer.Droid\Facebook.ReactNative.Background.Timer.Droid.csproj" />
     <ProjectReference Include="..\JitsiBindings\Facebook.ReactNative.Calendar.Events.Droid\Facebook.ReactNative.Calendar.Events.Droid.csproj" />
@@ -52,7 +53,6 @@
     <ProjectReference Include="..\JitsiBindings\Facebook.ReactNative.WebView.Droid\Facebook.ReactNative.WebView.Droid.csproj" />
     <ProjectReference Include="..\JitsiBindings\IgniteRealTime.Smack.Droid\IgniteRealTime.Smack.Droid.csproj" />
     <ProjectReference Include="..\JitsiBindings\JitsiMeet.Sdk.Droid\JitsiMeet.Sdk.Droid.csproj" />
-    <ProjectReference Include="..\JitsiBindings\Webkit.Droid\Webkit.Droid.csproj" />
   </ItemGroup>
 
 </Project>

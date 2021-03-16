@@ -104,7 +104,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JitsiBindings", "JitsiBindi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JitsiMeet.Sdk.iOS", "iOS\Jitsibindings\JitsiMeet.Sdk.iOS\JitsiMeet.Sdk.iOS.csproj", "{F217CBAC-8F48-4F57-B49E-07E2606924AA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webkit.Droid", "Droid\JitsiBindings\Webkit.Droid\Webkit.Droid.csproj", "{88BF0316-6910-4BE8-806A-E343F9DCAB9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.Webkit.Droid", "Droid\Bindings\Facebook.Webkit.Droid\Facebook.Webkit.Droid.csproj", "{160F54A7-A4C9-4F9F-8653-B9F350452FE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -417,14 +417,14 @@ Global
 		{F217CBAC-8F48-4F57-B49E-07E2606924AA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F217CBAC-8F48-4F57-B49E-07E2606924AA}.Release|Develop.ActiveCfg = Release|Any CPU
 		{F217CBAC-8F48-4F57-B49E-07E2606924AA}.Release|Develop.Build.0 = Release|Any CPU
-		{88BF0316-6910-4BE8-806A-E343F9DCAB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88BF0316-6910-4BE8-806A-E343F9DCAB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88BF0316-6910-4BE8-806A-E343F9DCAB9E}.Debug|Develop.ActiveCfg = Debug|Any CPU
-		{88BF0316-6910-4BE8-806A-E343F9DCAB9E}.Debug|Develop.Build.0 = Debug|Any CPU
-		{88BF0316-6910-4BE8-806A-E343F9DCAB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88BF0316-6910-4BE8-806A-E343F9DCAB9E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{88BF0316-6910-4BE8-806A-E343F9DCAB9E}.Release|Develop.ActiveCfg = Release|Any CPU
-		{88BF0316-6910-4BE8-806A-E343F9DCAB9E}.Release|Develop.Build.0 = Release|Any CPU
+		{160F54A7-A4C9-4F9F-8653-B9F350452FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160F54A7-A4C9-4F9F-8653-B9F350452FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160F54A7-A4C9-4F9F-8653-B9F350452FE1}.Debug|Develop.ActiveCfg = Debug|Any CPU
+		{160F54A7-A4C9-4F9F-8653-B9F350452FE1}.Debug|Develop.Build.0 = Debug|Any CPU
+		{160F54A7-A4C9-4F9F-8653-B9F350452FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160F54A7-A4C9-4F9F-8653-B9F350452FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160F54A7-A4C9-4F9F-8653-B9F350452FE1}.Release|Develop.ActiveCfg = Release|Any CPU
+		{160F54A7-A4C9-4F9F-8653-B9F350452FE1}.Release|Develop.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -474,7 +474,7 @@ Global
 		{4001FB25-6108-4EFB-AE1F-18DF1B79B09B} = {F15BE073-8C96-4CDE-9816-AE5ED45279A5}
 		{EFD05785-DDE6-43F2-BA63-C34AEDD6346D} = {F15BE073-8C96-4CDE-9816-AE5ED45279A5}
 		{F217CBAC-8F48-4F57-B49E-07E2606924AA} = {EFD05785-DDE6-43F2-BA63-C34AEDD6346D}
-		{88BF0316-6910-4BE8-806A-E343F9DCAB9E} = {7D2A5366-9BB2-42FD-BE7E-BFF6DD79199F}
+		{160F54A7-A4C9-4F9F-8653-B9F350452FE1} = {BEC792B6-332B-4123-943D-D7D09C6A1EA2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62224AB5-FF68-4E81-A15A-A10904E9A0ED}

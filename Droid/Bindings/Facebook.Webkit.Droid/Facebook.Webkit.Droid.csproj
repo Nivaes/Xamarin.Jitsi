@@ -29,11 +29,6 @@
     <LibraryProjectZip Include="Jars\*.aar" />
     <EmbeddedJar Include="Jars\*.jar" />
     <TransformFile Include="Transforms\*.xml" />
-  </ItemGroup>
-  
-  <ItemGroup>
-    <ProjectReference Include="..\Jitsi.Droid\Jitsi.Droid.csproj" />
-  </ItemGroup>
-  
+  </ItemGroup> 
 
 </Project>
