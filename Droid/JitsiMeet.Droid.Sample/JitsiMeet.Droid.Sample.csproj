@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <!--<PackageReference Include="OpenTK" Version="4.5.0" />-->
     <PackageReference Include="Xamarin.AndroidX.AppCompat" />
     <PackageReference Include="Xamarin.AndroidX.ConstraintLayout" />
     <PackageReference Include="Xamarin.AndroidX.Fragment" />
