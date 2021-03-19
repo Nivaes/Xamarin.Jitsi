@@ -146,10 +146,10 @@ jobs:
     #    msbuild /t:restore ./Nivaes.TimeLine.iOS.Sample/
 
     - name: Build JitsiMeet.Sdk.iOS
-      run: dotnet build .\iOS\Jitsibindings\JitsiMeet.Sdk.iOS\ /property:Configuration=Release
+      run: dotnet build ./iOS/Jitsibindings/JitsiMeet.Sdk.iOS/ /property:Configuration=Release
 
     - name: Build JitsiMeet.iOS.Sample
-      run: dotnet build dotnet build .\iOS\JitsiMeet.iOS.Sample\ --configuration Release
+      run: dotnet build ./iOS/JitsiMeet.iOS.Sample/ --configuration Release
 
   #build-Windows:
   #  runs-on: windows-2019
