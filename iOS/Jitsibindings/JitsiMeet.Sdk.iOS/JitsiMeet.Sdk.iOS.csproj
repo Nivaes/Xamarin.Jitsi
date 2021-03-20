@@ -6,8 +6,8 @@
     <RuntimeIdentifier Condition="'$(TargetFramework)' == 'net6.0-ios'">ios-x64</RuntimeIdentifier>
     <RuntimeIdentifier Condition="'$(TargetFramework)' == 'net6.0-maccatalyst'">maccatalyst-x64</RuntimeIdentifier>
 
-    <AssemblyName>BoundcyCastle.BcpProv.iOS</AssemblyName>
-    <RootNamespace>BoundcyCastle.BcpProv.iOS</RootNamespace>
+    <AssemblyName>JitsiMeet.Sdk.iOS</AssemblyName>
+    <RootNamespace>JitsiMeet.Sdk.iOS</RootNamespace>
     <Description>Binding library of https://github.com/jitsi/jitsi-meet</Description>
     <PackageId>Nivaes.JitsiMeet.Sdk.iOS</PackageId>
     <PackageTags>xamarin;jitsi;jitsimeet;ios</PackageTags>
@@ -27,9 +27,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <NativeReference Include="Native References/libPods-JitsiMeetSDK.a">
+    <NativeReference Include=".\NativeReferences\libPods-JitsiMeet.a">
       <Kind>Static</Kind>
       <SmartLink>False</SmartLink>
+    </NativeReference>
+    <NativeReference Include=".\NativeReferences\libPods-JitsiMeetSDK.a">
+      <Kind>Static</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
+    <NativeReference Include="NativeReferences\JitsiMeet.framework">
+      <Kind>Framework</Kind>
+    </NativeReference>
+    <NativeReference Include="NativeReferences\WebRTC.framework">
+      <Kind>Framework</Kind>
     </NativeReference>
   </ItemGroup>
 
