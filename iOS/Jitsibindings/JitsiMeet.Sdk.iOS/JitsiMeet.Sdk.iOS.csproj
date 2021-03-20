@@ -12,7 +12,7 @@
     <PackageTags>xamarin;jitsi;jitsimeet;ios</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
-    <Version>0.0.0-develop</Version>
+    <Version>3.0.0.0-develop</Version>
   </PropertyGroup>
 
   <PropertyGroup>
