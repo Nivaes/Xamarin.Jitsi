@@ -2,10 +2,10 @@
   <PropertyGroup>
     <TargetFrameworks>MonoAndroid90;net6.0-android</TargetFrameworks>
     
-    <AssemblyName>Facebook.Fresco.Droid</AssemblyName>
-    <RootNamespace>Facebook.Fresco.Droid</RootNamespace>
+    <AssemblyName>Facebook.Fresco.Core.Droid</AssemblyName>
+    <RootNamespace>Facebook.Fresco.Core.Droid</RootNamespace>
     <Description>Binding library of https://github.com/facebook/fresco</Description>
-    <PackageId>Nivaes.Facebook.Fresco.Droid.Droid</PackageId>
+    <PackageId>Nivaes.Facebook.Fresco.Droid</PackageId>
     <PackageTags>xamarin;android;monodroid;facebook;Fresco</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 

@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Xamarin.Legacy.Sdk">
   <PropertyGroup>
     <TargetFrameworks>MonoAndroid90;net6.0-android</TargetFrameworks>
-    
+
     <AssemblyName>Facebook.Webkit.Droid</AssemblyName>
     <RootNamespace>Facebook.Webkit.Droid</RootNamespace>
     <Description>Binding library of https://github.com/react-native-community/jsc-android-buildscripts</Description>
@@ -12,7 +12,7 @@
     <Version>0.58.0-develop</Version>
   </PropertyGroup>
 
- <PropertyGroup>
+  <PropertyGroup>
     <IsBindingProject>true</IsBindingProject>
     <OutputType>Library</OutputType>
     <AndroidClassParser>class-parse</AndroidClassParser>
@@ -21,7 +21,7 @@
   <PropertyGroup>
     <AndroidUseManagedDesignTimeResourceGenerator>False</AndroidUseManagedDesignTimeResourceGenerator>
   </PropertyGroup>
-  
+
   <!--<ItemGroup>
     <None Include="Resources\**\*.cs" />
     <Compile Remove="Resources\**\*.cs" />
@@ -29,6 +29,6 @@
     <LibraryProjectZip Include="Jars\*.aar" />
     <EmbeddedJar Include="Jars\*.jar" />
     <TransformFile Include="Transforms\*.xml" />
-  </ItemGroup>--> 
+  </ItemGroup>-->
 
 </Project>

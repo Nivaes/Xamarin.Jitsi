@@ -2,6 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0-android</TargetFramework>
     <OutputType>Exe</OutputType>
+    <!--<RuntimeIdentifiers>android-x86;android-x64;android-arm64</RuntimeIdentifiers>-->
 
     <RootNamespace>JitsiMeet.Droid.Sample</RootNamespace>
     <AssemblyName>JitsiMeet.Droid.Sample</AssemblyName>
@@ -12,7 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <!--<PackageReference Include="OpenTK" Version="4.5.0" />-->
     <PackageReference Include="Xamarin.AndroidX.AppCompat" />
     <PackageReference Include="Xamarin.AndroidX.ConstraintLayout" />
     <PackageReference Include="Xamarin.AndroidX.Fragment" />
@@ -53,7 +53,7 @@
     <ProjectReference Include="..\JitsiBindings\Facebook.ReactNative.WebRTC.Droid\Facebook.ReactNative.WebRTC.Droid.csproj" />
     <ProjectReference Include="..\JitsiBindings\Facebook.ReactNative.WebView.Droid\Facebook.ReactNative.WebView.Droid.csproj" />
     <ProjectReference Include="..\JitsiBindings\IgniteRealTime.Smack.Droid\IgniteRealTime.Smack.Droid.csproj" />
-    <ProjectReference Include="..\JitsiBindings\JitsiMeet.Sdk.Droid\JitsiMeet.Sdk.Droid.csproj" />
+    <ProjectReference Include="..\JitsiBindings\Jitsi.Meet.Sdk.Droid\Jitsi.Meet.Sdk.Droid.csproj" />
   </ItemGroup>
 
 </Project>

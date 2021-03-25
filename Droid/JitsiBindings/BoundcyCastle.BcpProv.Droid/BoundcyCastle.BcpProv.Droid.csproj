@@ -5,7 +5,7 @@
     <AssemblyName>BoundcyCastle.BcpProv.Droid</AssemblyName>
     <RootNamespace>BoundcyCastle.BcpProv.Droid</RootNamespace>
     <Description>Binding library of https://github.com/jitsi/jitsi-maven-repository/tree/master/releases/org/bouncycastle/bcprov-jdk15on</Description>
-    <PackageId>Nivaes.Jitsi.BoundcyCastle.BcpProv.Droid</PackageId>
+    <PackageId>Nivaes.BoundcyCastle.BcpProv.Droid</PackageId>
     <PackageTags>xamarin;android;monodroid;facebook;Bouncy Castle Provider</PackageTags>
     <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
 
