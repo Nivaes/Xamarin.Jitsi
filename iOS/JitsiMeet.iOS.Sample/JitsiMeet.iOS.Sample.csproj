@@ -9,6 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Jitsibindings\JitsiMeet.Sdk.iOS\Jitsi.Meet.Sdk.iOS.csproj" />
+    <ProjectReference Include="..\Jitsibindings\Jitsi.Meet.Sdk.iOS\Jitsi.Meet.Sdk.iOS.csproj" />
   </ItemGroup>
 </Project>
