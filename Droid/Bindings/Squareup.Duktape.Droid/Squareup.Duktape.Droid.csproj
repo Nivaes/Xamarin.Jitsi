@@ -22,15 +22,15 @@
     <AndroidUseManagedDesignTimeResourceGenerator>False</AndroidUseManagedDesignTimeResourceGenerator>
   </PropertyGroup>
 
-  <!--<ItemGroup>
-    <None Include="Resources\**\*.cs" />
-    <Compile Remove="Resources\**\*.cs" />
-    <AndroidResource Include="Resources\**\*.xml" Generator="MSBuild:UpdateAndroidResources" />
+  <ItemGroup>
+    <!--<None Include="Resources\**\*.cs" />
+    <Compile Remove="Resources\**\*.cs" />-->
+    <!--<AndroidResource Include="Resources\**\*.xml" Generator="MSBuild:UpdateAndroidResources" />-->
     <LibraryProjectZip Include="Jars\*.aar" />
     <EmbeddedJar Include="Jars\Embedded\*.jar" />
     <EmbeddedReferenceJar Include="Jars\Reference\*.jar" />
     <TransformFile Include="Transforms\*.xml" />
-  </ItemGroup>-->
+  </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Jars\Embedded\" />

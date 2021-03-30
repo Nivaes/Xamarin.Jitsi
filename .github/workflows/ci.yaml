@@ -14,7 +14,7 @@ on:
 #env:
 #    ANDROIDWORKLOADSMSI: "https://dl.internalx.com/vsts-devdiv/Xamarin.Android/public/net6/4534967/main/f4d8fe238b15eadfc7842749bf13e5fca3e2f2d2/Microsoft.NET.Workload.Android.11.0.200.148.msi"
 #    IOSWORKLOADSMSI: "https://bosstoragemirror.azureedge.net/wrench/main/98c8649d0c7d1e3c4c8d8d09e022befa853fb1e7/4541181/package/Microsoft.NET.Workload.iOS.14.4.100-ci.main.1192.msi"
-#    ANDROIDWORKLOADSAPK: "https://download.visualstudio.microsoft.com/download/pr/5e10dc75-294e-49f4-972e-218ae86191a3/e46d3533c30c8a864252a334820263a9/dotnet-sdk-6.0.100-preview.2.21155.3-osx-x64.pkg"
+#    ANDROIDWORKLOADSAPK: "https://download.visualstudio.microsoft.com/download/pr/5e10dc75-294e-49f4-972e-218ae86191a3/e46d3533c30c8a864252a334820263a9/dotnet-sdk-6.0.100-preview.4.21180.4-osx-x64.pkg"
 #    IOSWORKLOADSAPK: "https://bosstoragemirror.azureedge.net/wrench/main/98c8649d0c7d1e3c4c8d8d09e022befa853fb1e7/4541181/package/notarized/Microsoft.iOS.Bundle.14.4.100-ci.main.1192.pkg"
 #    MACCATALYSTWORKLOADSAPK: "https://bosstoragemirror.azureedge.net/wrench/main/98c8649d0c7d1e3c4c8d8d09e022befa853fb1e7/4541181/package/notarized/Microsoft.MacCatalyst.Bundle.14.3.100-ci.main.337.pkg"
 
@@ -44,7 +44,7 @@ jobs:
     - name: Setup .NET Core 6.0.x
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 6.0.100-preview.2.21155.3
+        dotnet-version: 6.0.100-preview.4.21180.4
         source-url: https://nuget.pkg.github.com/Nivaes/index.json
       env:
         NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
@@ -121,7 +121,7 @@ jobs:
     - name: Setup .NET Core 6.0.x
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 6.0.100-preview.2.21155.3
+        dotnet-version: 6.0.100-preview.4.21180.4
         source-url: https://nuget.pkg.github.com/Nivaes/index.json
       env:
         NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
@@ -129,7 +129,7 @@ jobs:
     - name: Install iOS Workloads
       run: |
         dotnet tool install --global boots
-        boots https://download.visualstudio.microsoft.com/download/pr/5e10dc75-294e-49f4-972e-218ae86191a3/e46d3533c30c8a864252a334820263a9/dotnet-sdk-6.0.100-preview.2.21155.3-osx-x64.pkg
+        boots https://download.visualstudio.microsoft.com/download/pr/5e10dc75-294e-49f4-972e-218ae86191a3/e46d3533c30c8a864252a334820263a9/dotnet-sdk-6.0.100-preview.4.21180.4-osx-x64.pkg
         boots https://bosstoragemirror.azureedge.net/wrench/main/98c8649d0c7d1e3c4c8d8d09e022befa853fb1e7/4541181/package/notarized/Microsoft.iOS.Bundle.14.4.100-ci.main.1192.pkg
         boots https://bosstoragemirror.azureedge.net/wrench/main/98c8649d0c7d1e3c4c8d8d09e022befa853fb1e7/4541181/package/notarized/Microsoft.MacCatalyst.Bundle.14.3.100-ci.main.337.pkg
 

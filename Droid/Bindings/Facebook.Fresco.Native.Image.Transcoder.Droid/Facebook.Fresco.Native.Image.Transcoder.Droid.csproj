@@ -22,14 +22,14 @@
     <AndroidUseManagedDesignTimeResourceGenerator>False</AndroidUseManagedDesignTimeResourceGenerator>
   </PropertyGroup>
 
-  <!--<ItemGroup>
-    <None Include="Resources\**\*.cs" />
-    <Compile Remove="Resources\**\*.cs" />
-    <AndroidResource Include="Resources\**\*.xml" Generator="MSBuild:UpdateAndroidResources" />
+  <ItemGroup>
+    <!--<None Include="Resources\**\*.cs" />
+    <Compile Remove="Resources\**\*.cs" />-->
+    <!--<AndroidResource Include="Resources\**\*.xml" Generator="MSBuild:UpdateAndroidResources" />-->
     <LibraryProjectZip Include="Jars\*.aar" />
     <EmbeddedJar Include="Jars\*.jar" />
     <TransformFile Include="Transforms\*.xml" />
-  </ItemGroup>-->
+  </ItemGroup>
   
   <ItemGroup>
     <ProjectReference Include="..\Facebook.Fresco.Core.Droid\Facebook.Fresco.Core.Droid.csproj" />
